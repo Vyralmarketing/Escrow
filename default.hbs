@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   {{! Page Meta }}
+  <title>{{meta_title}}</title>
+  {{! Document Settings }}
+  <meta charset="utf-8">
+  <meta name="description" content="{{meta_description}}">
+  {{! Responsive Meta Tags }}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {{! Favi }}
+  <link rel="shortcut icon" href="/assets/img/favicon/favicon.ico">
+  {{! Styles }}
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">  
+  <link rel="stylesheet" href="/assets/css/main.css" />
+
+  {{ghost_head}}
+</head>
+<body class="{{body_class}}">
+ {{> header}}
+ {{> nav}}
+ {{! {{> column}} 
+ {{{body}}}
+
+ {{> footer}}
+  
+ {{ghost_foot}}
+</body>
+</html>
