@@ -1,0 +1,28 @@
+{{!< default}}
+<div class="main-wrapper">
+	<main class="main" role="main">
+		
+		{{#foreach posts}}
+			<article class="article" role="article">
+				<header class="postheader">
+					<time class="date" datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD-MM-YYYY"}}</time>
+					<h2 class="posttitle"><a href="{{{url}}}" rel="bookmark">{{title}}</a></h2>
+				</header>
+				<div class="postcontent">
+					{{excerpt}}
+				</div><!--end Postcontent-->
+				{{#if tags}}
+				 <div class="postags">
+				 	tags: {{tags seperator=" | "}}
+				 </div>
+				{{/if}}
+			</article>
+		{{/foreach}}
+		
+		{{#if pagination}}
+			<div class="pagination">
+				{{{pagination}}}
+			</div>
+		{{/if}}
+	</main>
+</div><!--end main wrapper-->
