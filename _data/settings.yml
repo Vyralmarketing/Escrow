@@ -1,0 +1,33 @@
+navigation:
+  - title: work
+    url: /projects.html
+  - title: Contact
+    url: /contact.html
+
+title: San Francisco Real Estate Video Blog
+
+client:
+  market: Chicago
+  name: Joe Somebody
+  brand: Castle Greyskull
+  brokerage: Keller Williams Realty
+  address: '123 Fake St. Eternia, NE'
+  phone: 1-234-567-8910
+  email: someone@email.com
+  url: getvyral.com
+  homeeval: '#'
+  search: '#'
+  VR_form: '#'
+
+socials:
+  facebook: 'http://facebook.com'
+  linkedin: 'http://linkedin.com'
+  gplus: '#'
+  youtube: '#'
+  twitter: '#'
+  instagram: '#'
+  pintrest: '#'
+
+images:
+  hero_image_path: /img/sf_downtown.jpg
+  hero_logo_path: /img/Durwin_logo_white.png

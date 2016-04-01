@@ -1,0 +1,31 @@
+header
+  background-position: center center
+  background-size: cover
+  background-attachment: fixed
+  height: 50rem
+  text-align: center
+  padding-top: 2rem
+
+.site-logo
+  width: 100%
+  max-width: 28rem
+  filter: drop-shadow(0 2px 4px $transparent-black)
+  -webkit-filter: drop-shadow(0 2px 4px $transparent-black)
+
+.site-title
+  color: white
+  text-shadow: 0 2px 7px $transparent-black
+  text-transform: uppercase
+  font-size: 6.5rem
+
+@media (max-width: 500px)
+  header
+    padding-top: 6rem
+  .site-logo
+    max-width: 20rem
+  .site-title
+    font-size: 3.5rem
+
+.cta
+  padding: 1rem 2rem
+  font-size: 1.5rem

@@ -1,0 +1,36 @@
+# Site settings
+title: Your awesome title
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Junk Culture
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "localhost:4000" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+#Handling Reading
+encoding: "utf-8"
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+highlighter: rouge
+
+paginate: 4
+permalink: none
+
+gems:
+  - jemoji
+  - octopress-autoprefixer
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# Excludes
+exclude:
+  - .sass-cache
+
+sass:
+  sass_dir: _sass
+  style: :nested

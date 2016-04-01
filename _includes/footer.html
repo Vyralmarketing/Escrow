@@ -1,0 +1,37 @@
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="three columns">
+        <span itemprop="founder">{{site.data.settings.client.name}}</span>
+      </div>
+      <div class="three columns">
+        <span itemprop="brand">{{site.data.settings.client.brand}}</span>
+      </div>
+      <div class="three columns">
+        <span itemprop="branchof">{{site.data.settings.client.brokerage}}</span>
+      </div>
+      <div class="three columns">
+        <address itemprop="address">{{site.data.settings.client.address}}</address>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="four columns">
+        <a href="tel:{{site.data.settings.client.phone | prepend: "1-"}}" itemprop="telephone">{{site.data.settings.client.phone}}</a>
+      </div>
+      <div class="four columns"><a href="mailto:{{site.data.settings.client.email}}">{{site.data.settings.client.email}}</a></div>
+      <div class="four columns"><a href="{{site.data.settings.client.url}}">{{site.data.settings.client.url | remove: "http://" | remove: "https://"}}</a></div>
+    </div>
+    <div class="row">
+      <div class="twelve columns footer-socials">
+        {% include socials.html %}
+      </div>
+    </div>
+  </div>
+  <div class="attribution">
+    <p>&copy;{{site.date | format: %Y}} {{site.data.settings.client.brand}}</p>
+    Proudly Brought To You By Vyral Marketing
+  </div>
+</footer>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/main.js"></script>

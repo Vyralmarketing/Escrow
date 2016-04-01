@@ -1,0 +1,13 @@
+<nav class="top-nav">
+  <ul>
+    <li><a href="/">Home</a></li>
+    {% for page in site.pages %}
+      {% if page.title %}
+      <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+    {% for item in site.data.settings.navigation %}
+      <li><a href="{{ item.url}}">{{ item.title}}</a></li>
+    {% endfor %}
+  </ul>
+</nav>

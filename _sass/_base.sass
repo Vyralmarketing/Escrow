@@ -1,0 +1,109 @@
+\:root
+  font-size: 10px
+
+*
+  box-sizing: border-box
+  -webkit-font-smoothing: subpixel-antialiased
+
+body
+  font-family: $bodyfont
+  color: $bodycolor
+  margin: 0
+
+h1, h2, h3, h4, h5, h6
+  font-family: $headerfont
+  font-weight: 200
+  margin: 1rem 0
+
+h1
+  font-size: 5rem
+
+h2
+  font-size: 4.2rem
+h3
+  font-size: 3.6rem
+h4
+  font-size: 3rem
+h5
+  font-size: 2.4rem
+h6
+  font-size: 1.5rem
+
+.center
+  text-align: center
+
+.container
+  width: 100%
+  max-width: $main-width
+  margin: 0 auto
+
+nav
+  ul
+    list-style-type: none
+    li
+      display: inline-block
+
+a
+  color: $brand
+  text-decoration: none
+  &:hover
+    color: $brand-light
+
+form
+  label
+    display: block
+  input
+    display: block
+    padding: 0.5rem
+    border-radius: 5px
+    border: 1px solid grey
+    margin: 1rem 0
+  textarea
+    display: block
+    border: 1px solid gray
+    padding: 0.5rem
+    border-radius: 5px
+  select
+    border: 1px solid $brand
+    padding: 0.5rem
+    display: block
+
+
+.button, button, input[type="button"],input[type="submit"]
+  color: white
+  background: $brand
+  padding: 0.5rem 2rem
+  border: 3px solid $brand
+  border-radius: 10px
+  &:hover
+    background: $brand-light
+    border: 3px solid $brand
+    color: white
+  &:visited
+    color: white
+
+
+.button-ghost
+  @extend .button
+  background: transparent
+  border: 3px solid white
+  &:hover
+    background: rgba(255,255,255,0.7)
+    border: 3px solid white
+    color: $brand
+
+table
+  tr, td
+    border-bottom: 1px solid grey
+    padding: 0.5rem
+
+// for screen readers
+.sr-only
+  position: absolute
+  width: 1px
+  height: 1px
+  padding: 0
+  margin: -1px
+  overflow: hidden
+  clip: rect(0,0,0,0)
+  border: 0
