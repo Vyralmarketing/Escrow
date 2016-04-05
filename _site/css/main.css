@@ -873,6 +873,9 @@ there.
 :root {
   font-size: 10px; }
 
+html {
+  font-size: 10px; }
+
 * {
   box-sizing: border-box;
   -webkit-font-smoothing: subpixel-antialiased; }
@@ -922,7 +925,7 @@ a {
   color: #DD6B00;
   text-decoration: none; }
   a:hover {
-    color: #ff8411; }
+    color: #ff9f44; }
 
 form label {
   display: block; }
@@ -949,7 +952,7 @@ form select {
   border: 3px solid #DD6B00;
   border-radius: 10px; }
   .button:hover, .button-ghost:hover, button:hover, input[type="button"]:hover, input[type="submit"]:hover {
-    background: #ff8411;
+    background: #ff9f44;
     border: 3px solid #DD6B00;
     color: white; }
   .button:visited, .button-ghost:visited, button:visited, input[type="button"]:visited, input[type="submit"]:visited {
@@ -977,11 +980,15 @@ table tr, table td {
   clip: rect(0, 0, 0, 0);
   border: 0; }
 
+.diabled {
+  color: grey;
+  fill: grey; }
+
 .top-nav {
   position: fixed;
   text-align: right;
   font-weight: 300;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   text-transform: capitalize;
   width: 100%; }
   .top-nav ul {
@@ -993,7 +1000,7 @@ table tr, table td {
     .top-nav a:hover {
       color: #DD6B00; }
 
-header {
+#hero {
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -1028,11 +1035,11 @@ header {
 
 .content-wrapper {
   background: white;
-  padding-left: 4rem;
+  padding-left: 6rem;
   position: relative;
   bottom: 5.5rem;
   border-radius: 9px 9px 0 0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); }
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.5); }
   .content-wrapper .socials {
     text-align: center;
     margin-top: 0.7rem; }
@@ -1043,9 +1050,13 @@ header {
       padding: 0.3rem; }
     .content-wrapper .socials svg {
       fill: #DD6B00;
-      height: 3rem; }
+      height: 4rem;
+      -webkit-transition: 1s cubic-bezier(0.4, 0, 0.2, 1);
+      transition: 1s cubic-bezier(0.4, 0, 0.2, 1); }
       .content-wrapper .socials svg:hover {
-        fill: #ff8411; }
+        fill: #ff9f44;
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg); }
 
 @media (max-width: 550px) {
   .content-wrapper {
@@ -1056,10 +1067,14 @@ header {
 
 .post-wrapper {
   border-radius: 9px;
-  border: 2px solid #D8D8D8;
-  margin: 5px;
+  border: 1px solid #D8D8D8;
+  margin: 1rem;
   height: 575px;
-  position: relative; }
+  position: relative;
+  -webkit-transition: 0.3s;
+  transition: 0.3s; }
+  .post-wrapper:hover {
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.5); }
 
 .post-link {
   font-size: 3rem; }
@@ -1069,7 +1084,7 @@ header {
   border-radius: 7px 7px 0 0; }
 
 .post-title {
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: center; }
 
 .excerpt {
@@ -1097,6 +1112,47 @@ header {
   font-size: 2.7rem;
   font-weight: 200; }
 
+.paginator-links {
+  text-align: center;
+  padding: 1rem;
+  font-size: 3rem;
+  color: grey; }
+  .paginator-links svg {
+    max-width: 2rem; }
+
+/* Text components */
+.paginator-links .start-ellipsis::before,
+.paginator-links .end-ellipsis::before {
+  content: "..."; }
+
+.paginator-links .seperator::before {
+  content: ""; }
+
+.paginator-links .first-page::before {
+  content: "First"; }
+
+.paginator-links .previous-page::before {
+  content: ""; }
+
+.paginator-links .next-page::before {
+  content: ""; }
+
+.paginator-links .last-page::before {
+  content: "Last"; }
+
+/* The actual buttons */
+.paginator-links .first-page::before,
+.paginator-links .previous-page::before,
+.paginator-links .next-page::before,
+.paginator-links .last-page::before,
+.paginator-links .number {
+  border-radius: 1em;
+  margin: 0.5rem;
+  padding: 0.5rem; }
+
+.paginator-links .number.current {
+  font-weight: bold; }
+
 .newsletter {
   background: #DD6B00;
   color: white;
@@ -1115,25 +1171,57 @@ header {
     font-size: 2rem;
     padding: 2.4rem;
     width: 70%;
-    display: inline-block; }
+    display: inline-block;
+    margin-right: 1rem;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
     .newsletter_optin input[type='email']::-webkit-input-placeholder {
       color: white; }
-    .newsletter_optin input[type='email']:-moz-placeholder {
-      color: white;
-      opacity: 1; }
     .newsletter_optin input[type='email']::-moz-placeholder {
-      color: white;
-      opacity: 1; }
+      color: white; }
+    .newsletter_optin input[type='email']:-moz-placeholder {
+      color: white; }
     .newsletter_optin input[type='email']:-ms-input-placeholder {
       color: white; }
-    .newsletter_optin input[type='email']:placeholder-shown {
-      color: white; }
+    .newsletter_optin input[type='email']:focus {
+      background: white;
+      color: #DD6B00;
+      -webkit-transform: scale(1.05);
+      transform: scale(1.05);
+      -webkit-transform: translateY(-0.2rem);
+      transform: translateY(-0.2rem); }
+      .newsletter_optin input[type='email']:focus::-webkit-input-placeholder {
+        color: transparent; }
+      .newsletter_optin input[type='email']:focus::-moz-placeholder {
+        color: transparent; }
+      .newsletter_optin input[type='email']:focus:-moz-placeholder {
+        color: transparent; }
+      .newsletter_optin input[type='email']:focus:-ms-input-placeholder {
+        color: transparent; }
   .newsletter_optin input[type="submit"] {
     background: white;
     color: #DD6B00;
     padding: 1.3rem 2rem;
     text-transform: capitalize;
-    font-size: 2rem; }
+    font-size: 2rem;
+    font-weight: 300;
+    border: none;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+    .newsletter_optin input[type="submit"]:hover {
+      background: #ff9f44;
+      color: white;
+      box-shadow: 4px 4px 0 white;
+      -webkit-transform: scale(1.05);
+      transform: scale(1.05);
+      -webkit-transform: translateY(-0.2rem);
+      transform: translateY(-0.2rem); }
+    .newsletter_optin input[type="submit"]:active {
+      box-shadow: 0 0 0 #DD6B00;
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+      -webkit-transform: translateY(0rem);
+      transform: translateY(0rem); }
 
 footer {
   background: #4A4A4A;
@@ -1147,3 +1235,28 @@ footer {
 @media(max-width: 500px) {
   footer {
     text-align: center; } }
+.footer-socials {
+  text-align: center;
+  margin: 2rem; }
+  .footer-socials svg {
+    height: 3rem;
+    fill: white;
+    -webkit-transition: 1s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 1s cubic-bezier(0.4, 0, 0.2, 1); }
+    .footer-socials svg:hover {
+      fill: #DD6B00;
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg); }
+
+.attribution {
+  text-align: center; }
+
+.vyral-logo {
+  fill: #DD6B00;
+  display: inline;
+  max-width: 2rem;
+  position: relative;
+  top: 0.5rem;
+  margin-right: 0.1rem; }
+  .vyral-logo:hover {
+    fill: #ff9f44; }

@@ -12,7 +12,7 @@ $headerfont: 'Source Sans Pro', helvetica, arial, sans-serif
 //colors
 
 $brand: #DD6B00
-$brand-light: lighten($brand, 10%)
+$brand-light: lighten($brand, 20%)
 $brand-dark: darken($brand, 10%)
 $bodycolor: #252525
 $transparent-black: rgba(0,0,0,0.5)
@@ -22,15 +22,20 @@ $transparent-black: rgba(0,0,0,0.5)
   height: $n
   width: $n
 @mixin shadow
-  box-shadow: 0 2px 4px rgba(0,0,0,0.5)
+  box-shadow: 0 2px 7px rgba(0,0,0,0.5)
 
 //vendors
 @import "vendor/normalize"
 @import "vendor/skeleton"
+@import "vendor/bourbon/bourbon"
 
 @import "base"
 @import "nav"
 @import "header"
 @import "posts"
+@import "pagination"
 @import "newsletter"
 @import "footer"
+
+//Leave me last
+@import "custom"

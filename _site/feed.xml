@@ -4,10 +4,10 @@
     <title>Your awesome title</title>
     <description>Junk Culture
 </description>
-    <link>localhost:4000/</link>
-    <atom:link href="localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 01 Apr 2016 17:09:47 -0500</pubDate>
-    <lastBuildDate>Fri, 01 Apr 2016 17:09:47 -0500</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 05 Apr 2016 12:15:53 -0500</pubDate>
+    <lastBuildDate>Tue, 05 Apr 2016 12:15:53 -0500</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
     
       <item>
@@ -28,13 +28,36 @@
 
 </description>
         <pubDate>Tue, 29 Mar 2016 20:29:17 -0500</pubDate>
-        <link>localhost:4000/jekyll/update/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">localhost:4000/jekyll/update/welcome-to-jekyll.html</guid>
+        <link>http://localhost:4000/jekyll/update/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
         
         <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Jim Jones Soda, hot or not?</title>
+        <description>&lt;iframe width=&quot;552&quot; height=&quot;311&quot; src=&quot;https://www.youtube.com/embed/otsTKhJat4E&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Happy New Year and 2016! A lot of great things are happening around us. &lt;strong&gt;This year, our office teamed up with Rob Ross and in fact, he moved to Keller Williams Santa Cruz. Rob and I have been colleagues as accomplished Realtors for quite some time.&lt;/strong&gt; Many of our buyers in Santa Cruz come from the Silicon Valley.&lt;/p&gt;
+
+&lt;p&gt;We’re &lt;em&gt;delighted&lt;/em&gt; to team up and provide our clients with the maximum amount of marketing resources. &lt;strong&gt;We’re thrilled to work with our clients on a deep level now.&lt;/strong&gt; This partnership is going to be awesome!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;You’ll hear from Rob and I in the upcoming weeks and months for the Santa Cruz Real Estate Journal with some great market updates and success stories.&lt;/strong&gt; If you’re thinking about buying or selling a home in the surrounding area, give me a call or send me an email today! I’d be happy to help you with your real estate questions and needs.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 25 Mar 2016 03:00:00 -0500</pubDate>
+        <link>http://localhost:4000/jim-jones-soda.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jim-jones-soda.html</guid>
+        
+        <category>Mulagen</category>
+        
+        <category>Molly Mullegen</category>
+        
+        <category>Macho Man</category>
+        
         
       </item>
     
@@ -49,8 +72,8 @@
 &lt;p&gt;&lt;strong&gt;You’ll hear from Rob and I in the upcoming weeks and months for the Santa Cruz Real Estate Journal with some great market updates and success stories.&lt;/strong&gt; If you’re thinking about buying or selling a home in the surrounding area, give me a call or send me an email today! I’d be happy to help you with your real estate questions and needs.&lt;/p&gt;
 </description>
         <pubDate>Fri, 25 Mar 2016 03:00:00 -0500</pubDate>
-        <link>localhost:4000/where-were-going-we-dont-need-roads.html</link>
-        <guid isPermaLink="true">localhost:4000/where-were-going-we-dont-need-roads.html</guid>
+        <link>http://localhost:4000/where-were-going-we-dont-need-roads.html</link>
+        <guid isPermaLink="true">http://localhost:4000/where-were-going-we-dont-need-roads.html</guid>
         
         <category>Mulagen</category>
         
@@ -68,8 +91,8 @@
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
 </description>
         <pubDate>Tue, 22 Mar 2016 01:00:00 -0500</pubDate>
-        <link>localhost:4000/fairness-fondness-decency-i-know-not.html</link>
-        <guid isPermaLink="true">localhost:4000/fairness-fondness-decency-i-know-not.html</guid>
+        <link>http://localhost:4000/fairness-fondness-decency-i-know-not.html</link>
+        <guid isPermaLink="true">http://localhost:4000/fairness-fondness-decency-i-know-not.html</guid>
         
         <category>jesus</category>
         
@@ -87,8 +110,8 @@
 &lt;p&gt;Abusive boyfriend maybe, but never your friend.&lt;/p&gt;
 </description>
         <pubDate>Mon, 21 Mar 2016 15:30:00 -0500</pubDate>
-        <link>localhost:4000/whiskey-is-never-your-friend.html</link>
-        <guid isPermaLink="true">localhost:4000/whiskey-is-never-your-friend.html</guid>
+        <link>http://localhost:4000/whiskey-is-never-your-friend.html</link>
+        <guid isPermaLink="true">http://localhost:4000/whiskey-is-never-your-friend.html</guid>
         
         <category>Jekyll</category>
         
@@ -100,14 +123,14 @@
       </item>
     
       <item>
-        <title>What Do Current San Francisco Market Conditions Mean for You?</title>
+        <title>Content makes me nauseous</title>
         <description>&lt;iframe id=&quot;video&quot; width=&quot;652&quot; height=&quot;367&quot; src=&quot;https://www.youtube.com/embed/UsFNJnfG2xw&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;strong&gt;Are we currently in a buyer’s or seller’s market?&lt;/strong&gt; This is the question on everyone’s mind, and today we’ll answer it.&lt;/p&gt;
 
 &lt;p&gt;It’s a pretty balanced market right now, but in most areas seller’s have a slight advantage. This time of year, inventory is typically quite low, so &lt;strong&gt;what we’re seeing now is pretty normal&lt;/strong&gt;. You can expect to see more listings pop up in the early spring months.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://twitter.com/home/?status=Our market is pretty balanced for now, but we’re unsure how much longer it will last.%20localhost:4000/blog/sf-market.html%20via%40#&quot; target=&quot;_blank&quot; class=&quot;pullquote&quot;&gt;“Our market is pretty balanced for now, but we’re unsure how much longer it will last.”&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/home/?status=Our market is pretty balanced for now, but we’re unsure how much longer it will last.%20http://localhost:4000/blog/Peaceabilly.html%20via%40#&quot; target=&quot;_blank&quot; class=&quot;pullquote&quot;&gt;“Our market is pretty balanced for now, but we’re unsure how much longer it will last.”&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;When inventory is low, home prices don’t fall. Right now, they are pretty stable in our area, which is good news for buyers. Also, interest rates are still quite low despite a slight hike in December. &lt;strong&gt;This is great for buyers looking to make their dollar go further!&lt;/strong&gt;&lt;/p&gt;
 
@@ -116,8 +139,41 @@
 &lt;p&gt;If you have any questions about our current market, or if you would like real estate assistance of any kind, please don’t hesitate to reach out to us. We would love to hear from you!&lt;/p&gt;
 </description>
         <pubDate>Mon, 21 Mar 2016 09:00:00 -0500</pubDate>
-        <link>localhost:4000/blog/sf-market.html</link>
-        <guid isPermaLink="true">localhost:4000/blog/sf-market.html</guid>
+        <link>http://localhost:4000/blog/Peaceabilly.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/Peaceabilly.html</guid>
+        
+        <category>Market Update</category>
+        
+        <category>Real Estate</category>
+        
+        <category>Buyer Tips</category>
+        
+        <category>Home Seller Tips</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>What Do Current San Francisco Market Conditions Mean for You?</title>
+        <description>&lt;iframe id=&quot;video&quot; width=&quot;652&quot; height=&quot;367&quot; src=&quot;https://www.youtube.com/embed/UsFNJnfG2xw&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;strong&gt;Are we currently in a buyer’s or seller’s market?&lt;/strong&gt; This is the question on everyone’s mind, and today we’ll answer it.&lt;/p&gt;
+
+&lt;p&gt;It’s a pretty balanced market right now, but in most areas seller’s have a slight advantage. This time of year, inventory is typically quite low, so &lt;strong&gt;what we’re seeing now is pretty normal&lt;/strong&gt;. You can expect to see more listings pop up in the early spring months.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/home/?status=Our market is pretty balanced for now, but we’re unsure how much longer it will last.%20http://localhost:4000/blog/sf-market.html%20via%40#&quot; target=&quot;_blank&quot; class=&quot;pullquote&quot;&gt;“Our market is pretty balanced for now, but we’re unsure how much longer it will last.”&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;When inventory is low, home prices don’t fall. Right now, they are pretty stable in our area, which is good news for buyers. Also, interest rates are still quite low despite a slight hike in December. &lt;strong&gt;This is great for buyers looking to make their dollar go further!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Whether you’re buying or selling, there are a lot of great opportunities in our current market. &lt;strong&gt;Conditions aren’t always this steady&lt;/strong&gt;, and we may see some changes for the worse if interest rates rise like they’re expected to. In short, now is a great time to make a move!&lt;/p&gt;
+
+&lt;p&gt;If you have any questions about our current market, or if you would like real estate assistance of any kind, please don’t hesitate to reach out to us. We would love to hear from you!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 21 Mar 2016 09:00:00 -0500</pubDate>
+        <link>http://localhost:4000/blog/sf-market.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/sf-market.html</guid>
         
         <category>Market Update</category>
         
@@ -141,8 +197,8 @@
 &lt;p&gt;beside the white chickens.&lt;/p&gt;
 </description>
         <pubDate>Fri, 18 Mar 2016 10:30:00 -0500</pubDate>
-        <link>localhost:4000/every-branch-of-the-ugly-tree.html</link>
-        <guid isPermaLink="true">localhost:4000/every-branch-of-the-ugly-tree.html</guid>
+        <link>http://localhost:4000/every-branch-of-the-ugly-tree.html</link>
+        <guid isPermaLink="true">http://localhost:4000/every-branch-of-the-ugly-tree.html</guid>
         
         <category>Blog</category>
         
@@ -166,8 +222,8 @@
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Tue, 16 Feb 2016 16:07:00 -0600</pubDate>
-        <link>localhost:4000/Juice-is-stellar.html</link>
-        <guid isPermaLink="true">localhost:4000/Juice-is-stellar.html</guid>
+        <link>http://localhost:4000/Juice-is-stellar.html</link>
+        <guid isPermaLink="true">http://localhost:4000/Juice-is-stellar.html</guid>
         
         <category>testpost</category>
         
@@ -198,8 +254,8 @@
 
 </description>
         <pubDate>Mon, 30 Nov 2015 09:30:13 -0600</pubDate>
-        <link>localhost:4000/blog/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">localhost:4000/blog/welcome-to-jekyll.html</guid>
+        <link>http://localhost:4000/blog/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/welcome-to-jekyll.html</guid>
         
         <category>Jekyll</category>
         
