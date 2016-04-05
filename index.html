@@ -7,11 +7,15 @@ layout: default
     <ul class="post-list">
       {% for post in paginator.posts %}
       <li>
-        <div class="six columns post-wrapper">
+        {% if paginator.total_posts < 2 %}
+          <div class="single post-wrapper">
+        {% else  %}
+          <div class="six columns post-wrapper">
+        {% endif %}
           <a href="{{post.url}}">
             {% if post.image %}
             <img src="{{post.image}}" alt="{{post.title}}" class="post-image" />
-            
+
             {% endif %}
           </a>
           <div class="post-excerpts">
@@ -26,4 +30,6 @@ layout: default
     </ul>
   </div>
 </div>
-{% include pagination.html %}
+{% if pagination.total_pages > 1 %}
+  {% include pagination.html %}
+{% endif %}

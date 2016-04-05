@@ -2,6 +2,7 @@
   background-position: center center
   background-size: cover
   background-attachment: fixed
+  background-repeat: no-repeat
   height: 50rem
   text-align: center
   padding-top: 2rem
@@ -10,8 +11,7 @@
 .site-logo
   width: 100%
   max-width: 28rem
-  filter: drop-shadow(0 2px 4px $transparent-black)
-  -webkit-filter: drop-shadow(0 2px 4px $transparent-black)
+  @include filter(drop-shadow(0 2px 4px $transparent-black))
 
 .site-title
   color: white
@@ -20,13 +20,24 @@
   font-size: 6.5rem
 
 @media (max-width: 500px)
-  header
-    padding-top: 6rem
+  #hero
+    height: 45rem
   .site-logo
-    max-width: 20rem
+    max-width: 15rem
+    margin-top: 4rem
   .site-title
     font-size: 3.5rem
 
 .cta
   padding: 1rem 2rem
   font-size: 1.5rem
+  @include shadow
+  &:hover
+    @include transform(translateY(-0.5rem))
+.button-ghost.cta
+  background: transparent
+  color: $brand
+  border-color: white
+  &:hover
+    color: $brand
+    background: white

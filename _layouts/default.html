@@ -8,7 +8,11 @@
     {% include header.html %}
 
     <main>
-      <div class="container content-wrapper">
+      {% if paginator.total_posts < 2%}
+        <div class="container single content-wrapper">
+        {% else %}
+        <div class="container content-wrapper">
+      {% endif %}
         {% include socials.html %}
         {{ content }}
       </div>

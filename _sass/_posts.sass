@@ -10,26 +10,42 @@
     margin-top: 0.7rem
     ul
       margin-bottom: 0.1rem
-      max-height: 4rem
+      max-height: 5rem
+      list-style-type: none
     li
       padding: 0.3rem
+      display: inline-block
     svg
       fill: $brand
       height: 4rem
+      border-radius: 50%
       @include transition(1s cubic-bezier(0.4, 0, 0.2, 1))
       &:hover
         fill: $brand-light
+        background: $brand-dark
         @include transform(rotate(360deg))
+
+.single.content-wrapper
+  padding-left: 0
+
+@media(max-width: 1000px)
+  .single.content-wrapper
+    padding: 0 2rem
+
+@media (max-width: 775px)
+  .single.content-wrapper
+    padding-left: 2rem
 
 @media (max-width: 550px)
   .content-wrapper
     padding-left: 0
     padding-right: 1.5rem
+
 .post-list
   li
     display: inline
 
-.post-wrapper
+.six.columns.post-wrapper
   border-radius: 9px
   border: 1px solid #D8D8D8
   margin: 1rem
@@ -38,6 +54,19 @@
   @include transition(0.3s)
   &:hover
     @include shadow
+
+.single.post-wrapper
+  max-width: 1000px
+  border-radius: 9px
+  border: 1px solid #D8D8D8
+  margin: 1rem auto
+  position: relative
+  @include transition(0.3s)
+  &:hover
+    @include shadow
+  .excerpt
+    padding-bottom: 5rem
+
 
 .post-link
   font-size: 3rem
@@ -65,6 +94,12 @@
   padding: 1rem 2rem
   border: 1px solid #4A4A4A
   border-radius: 7px
+  @include transition(0.3s cubic-bezier(0.93, 1.9, 0.62, 0.74))
+  &:hover
+    background: $brand
+    color: white
+    border: 1px solid $brand
+    font-size: 1.8rem
 
 #arrow_left, #arrow_right
   max-width: 2rem

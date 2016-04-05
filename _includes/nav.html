@@ -1,5 +1,5 @@
-<nav class="top-nav">
-  <ul>
+<nav class="top-nav" id="top-nav">
+  <ul class="top-menu">
     <li><a href="/">Home</a></li>
     {% for page in site.pages %}
       {% if page.title %}
@@ -10,4 +10,7 @@
       <li><a href="{{ item.url}}">{{ item.title}}</a></li>
     {% endfor %}
   </ul>
+  <a href="#" id="hamburger" role="button">
+  <span></span>
+  </a>
 </nav>

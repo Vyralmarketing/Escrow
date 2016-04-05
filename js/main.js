@@ -1,3 +1,30 @@
+console.log("congrats, I'm loaded.");
+
+// Navbar scroll transition
+$(function(){
+  $(window).scroll(function(){
+    var winTop = $(window).scrollTop();
+    if(winTop <= 400){
+      $("#top-nav").removeClass("nav-inverse");
+      //$("#topnav-logo").addClass("hidden");
+    }else{
+      $("#top-nav").addClass("nav-inverse");
+      //$("#topnav-logo").removeClass("hidden");
+    }//if-else
+  });//win func.
+});//ready func.
+
+//Sticky Navbar
+jQuery(document).ready(function(){
+	$('#hamburger').click(function(){
+		$(this).toggleClass('open');
+    $('.top-menu').slideToggle("slow", function(){});
+	});
+
+});
+
+
+
 //Fluidvid.js
 
   (function ( window, document, undefined ) {
