@@ -8,7 +8,7 @@
     fill: $brand
     max-width: 2rem
   .disabled
-    fill: #999  
+    fill: #999
 /* Text components */
 
 .paginator-links .start-ellipsis::before,
@@ -53,3 +53,7 @@
 
 .paginator-links .number.current
   font-weight: bold
+
+@media (max-width: 500px)
+  .paginator-links
+    font-size: 1.5rem

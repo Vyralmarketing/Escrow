@@ -6,9 +6,83 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 05 Apr 2016 17:41:45 -0500</pubDate>
-    <lastBuildDate>Tue, 05 Apr 2016 17:41:45 -0500</lastBuildDate>
+    <pubDate>Wed, 06 Apr 2016 16:55:18 -0500</pubDate>
+    <lastBuildDate>Wed, 06 Apr 2016 16:55:18 -0500</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 29 Mar 2016 20:29:17 -0500</pubDate>
+        <link>http://localhost:4000/jekyll/update/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update/welcome-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Jim Jones Soda, hot or not?</title>
+        <description>&lt;iframe width=&quot;552&quot; height=&quot;311&quot; src=&quot;https://www.youtube.com/embed/otsTKhJat4E&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Happy New Year and 2016! A lot of great things are happening around us. &lt;strong&gt;This year, our office teamed up with Rob Ross and in fact, he moved to Keller Williams Santa Cruz. Rob and I have been colleagues as accomplished Realtors for quite some time.&lt;/strong&gt; Many of our buyers in Santa Cruz come from the Silicon Valley.&lt;/p&gt;
+
+&lt;p&gt;We’re &lt;em&gt;delighted&lt;/em&gt; to team up and provide our clients with the maximum amount of marketing resources. &lt;strong&gt;We’re thrilled to work with our clients on a deep level now.&lt;/strong&gt; This partnership is going to be awesome!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;You’ll hear from Rob and I in the upcoming weeks and months for the Santa Cruz Real Estate Journal with some great market updates and success stories.&lt;/strong&gt; If you’re thinking about buying or selling a home in the surrounding area, give me a call or send me an email today! I’d be happy to help you with your real estate questions and needs.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 25 Mar 2016 03:00:00 -0500</pubDate>
+        <link>http://localhost:4000/jim-jones-soda.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jim-jones-soda.html</guid>
+        
+        <category>Mulagen</category>
+        
+        <category>Molly Mullegen</category>
+        
+        <category>Macho Man</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Where we&#39;re going, we don&#39;t need roads</title>
+        <description>&lt;iframe width=&quot;552&quot; height=&quot;311&quot; src=&quot;https://www.youtube.com/embed/otsTKhJat4E&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Happy New Year and 2016! A lot of great things are happening around us. &lt;strong&gt;This year, our office teamed up with Rob Ross and in fact, he moved to Keller Williams Santa Cruz. Rob and I have been colleagues as accomplished Realtors for quite some time.&lt;/strong&gt; Many of our buyers in Santa Cruz come from the Silicon Valley.&lt;/p&gt;
+
+&lt;p&gt;We’re &lt;em&gt;delighted&lt;/em&gt; to team up and provide our clients with the maximum amount of marketing resources. &lt;strong&gt;We’re thrilled to work with our clients on a deep level now.&lt;/strong&gt; This partnership is going to be awesome!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;You’ll hear from Rob and I in the upcoming weeks and months for the Santa Cruz Real Estate Journal with some great market updates and success stories.&lt;/strong&gt; If you’re thinking about buying or selling a home in the surrounding area, give me a call or send me an email today! I’d be happy to help you with your real estate questions and needs.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 25 Mar 2016 03:00:00 -0500</pubDate>
+        <link>http://localhost:4000/where-were-going-we-dont-need-roads.html</link>
+        <guid isPermaLink="true">http://localhost:4000/where-were-going-we-dont-need-roads.html</guid>
+        
+        <category>Mulagen</category>
+        
+        <category>Molly Mullegen</category>
+        
+        <category>Macho Man</category>
+        
+        
+      </item>
     
       <item>
         <title>Fairness, fondness, decency - I know not</title>
@@ -25,6 +99,25 @@
         <category>built</category>
         
         <category>my hot-rod</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Whiskey is never your friend</title>
+        <description>&lt;p&gt;No matter how much you want it to be true, whiskey will never be your friend.&lt;/p&gt;
+
+&lt;p&gt;Abusive boyfriend maybe, but never your friend.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 21 Mar 2016 15:30:00 -0500</pubDate>
+        <link>http://localhost:4000/whiskey-is-never-your-friend.html</link>
+        <guid isPermaLink="true">http://localhost:4000/whiskey-is-never-your-friend.html</guid>
+        
+        <category>Jekyll</category>
+        
+        <category>news</category>
+        
+        <category>Junior Ruffian</category>
         
         
       </item>
@@ -92,6 +185,232 @@
         
         
         <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>First Commit</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;&quot;The beginning is the most important part of the work.&quot;&lt;br /&gt;
+&lt;small&gt;&lt;cite title=&quot;Plato&quot;&gt;Plato&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I have been away from the blogging scene for quite a while now, suddenly today it dawned upon me that I need to start writing/posting again. My writing is a little bit rusty now, and I need to brush on that. Anyways, the moment I thought about blogging, Wordpress flashed in my mind. Well, I used Wordpress &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; in the past and it worked well for a while, then I had to face issues like high-traffic and high CPU load and unexpected spikes in my server. Well, those weren’t too much trouble, I would avoid fixing those bugs if I was busy, and sometimes I would leave the system untouched for 2 days straight and let the server admins frown and try to mitigate the outage (I had a pretty straight forward deal with my hosting provider, that no matter what, they can’t shut down my website). The PHP runtime errors weren’t a big deal, the hundreds of thousands of SQL database queries weren’t a trouble, sometimes the site would run a tad bit slower than average, but it was OK overall for me. A sample of the emails I would receive from my hosting provider is given below:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;tickets@hostgator.com
+10/11/10
+
+to hmfaysal 
+Hello, 
+
+
+I apologize, but I was forced to suspend the script &quot;/home/hmfaysal/public_html/hmfaysal.com/index.php&quot; as it was causing a high load on the server, and due to it affecting all of the other accounts on the system, I was forced to take immediate action for the health of the server.g 
+
+I did notice that this was a Wordpress installation, and would recommend that you enable caching for it.
+
+Please note that if you already have caching enabled, you will need to take more action such as looking into any high use modules or plugins, and seeing if there are any updates, or possibly any that you can disable to reduce the load that your site causes. 
+
+If you reply back to this with your IP address (http://www.hostgator.com/ip.shtml) we will be more than happy to go ahead enable HTTP access for you, so that you can safely work on the script without it causing further issues. Please let me know how you would like to proceed.  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;But the game was changed when my site got hacked. Wordpress is notorious in getting hacked. The PHP code libraries are huge, and while Automattic tries to keep it relatively clean and bug free, bugs do persist among the thousands of lines of codes and every once in a while a bug gets discovered by the code breakers. If the bug can be exploited in some way to gain access of the site, the code breakers tend to do some serious damage. While I wasn’t been exclusively targeted by such individuals, I was part of a victimized group who used the same version of Wordpress, and all of our sites got defaced by some mass defacing software. Although it didn’t do serious damage, as I have daily off-site backup, I became dubious about the Wordpress platform.&lt;/p&gt;
+
+&lt;p&gt;So, this time around, while I was still brainstorming for ideas and theme designs and what not, I decided to go back to Jekyll, or you may say, rather old school. Why not use plain static HTML files with some CSS styling and JS animations? Static sites are impossible to hack, as there are no codes needed to be run on the server. The only way a static site can be compromised if the code breakers have access to your FTP account. I have used Jekyll in the past during my college years. I was working as a Teaching Assistant in the Mathematics Dept, and I was supposed to post weekly course materials on the course website. The trouble was my Alma maters IT dept didn’t allow dynamic sites to run on the nodes, and I wasn’t going download the HTML files, edit them with Sublime text, and push them back onto the server every week. So I used Jekyll and GIT Version Control to do that for me. And it was so efficient that I would post materials daily instead of weekly. It was like love on first use. But Wordpress had lots of theme choices and for my personal site I decided to use Wordpress anyways disregarding the simpleness and speed static sites provided. After the takeover of my Wordpress powered blog happened, I turned to self written PHP sites and static sites completely. I have built a social network based on PHP for my peer group which is highly secure but when it comes down to speed it lags behind. So I built this site using Jekyll, a blog aware static site generator. I hope this site will perform as envisioned.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;This domain previously hosted a Wordpress blog. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Thu, 15 May 2014 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/personal/first-commit.html</link>
+        <guid isPermaLink="true">http://localhost:4000/personal/first-commit.html</guid>
+        
+        <category>blogging</category>
+        
+        <category>jekyll</category>
+        
+        
+        <category>personal</category>
+        
+      </item>
+    
+      <item>
+        <title>ABOUT HMFAYSAL OMEGA</title>
+        <description>&lt;p&gt;HMFAYSAL OMEGA is a minimalist, beautiful, responsive theme for Jekyll designed for engineers as well as writers who want their content to take front and center. This theme elegantly wraps each page and post with featured images complementing the content. HMFAYSAL OMEGA (named after the Greek Alphabet) complements Jekyll’s minimalist, content-first approach with gorgeous typography and subtle design elements.&lt;/p&gt;
+
+&lt;p&gt;Write well, write beautifully, write responsively!&lt;/p&gt;
+
+&lt;section id=&quot;table-of-contents&quot; class=&quot;toc&quot;&gt;
+  &lt;header&gt;
+    &lt;h1&gt;Features&lt;/h1&gt;
+  &lt;/header&gt;
+&lt;div id=&quot;drawer&quot;&gt;
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#twitter-bootstrap-3&quot; id=&quot;markdown-toc-twitter-bootstrap-3&quot;&gt;Twitter Bootstrap 3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#option-to-set-parallax-featured-image-that-wraps-your-post-in-header-and-footer&quot; id=&quot;markdown-toc-option-to-set-parallax-featured-image-that-wraps-your-post-in-header-and-footer&quot;&gt;Option to set Parallax featured image that wraps your post in header and footer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#variable-templates-for-articles-link-quotation-and-status-updates&quot; id=&quot;markdown-toc-variable-templates-for-articles-link-quotation-and-status-updates&quot;&gt;Variable templates for articles, link, quotation and status updates&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#responsive-images-and-magnific-popup-lightbox&quot; id=&quot;markdown-toc-responsive-images-and-magnific-popup-lightbox&quot;&gt;Responsive images and Magnific Popup Lightbox&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#plugin-freegithub-pages-deployment-ready&quot; id=&quot;markdown-toc-plugin-freegithub-pages-deployment-ready&quot;&gt;Plugin-free/Github Pages Deployment Ready&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#read-time-calculator-calculation-of-post-read-time-based-on-word-count&quot; id=&quot;markdown-toc-read-time-calculator-calculation-of-post-read-time-based-on-word-count&quot;&gt;Read time Calculator: Calculation of post read-time based on word count&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#simple-search-that-overlays-results-based-on-post-title&quot; id=&quot;markdown-toc-simple-search-that-overlays-results-based-on-post-title&quot;&gt;Simple search that overlays results based on post title&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#display-mathematical-equations-beautifully-via-mathjax&quot; id=&quot;markdown-toc-display-mathematical-equations-beautifully-via-mathjax&quot;&gt;Display mathematical equations beautifully via MathJax&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#css3-transitions-and-svg-graphics-for-better-performance&quot; id=&quot;markdown-toc-css3-transitions-and-svg-graphics-for-better-performance&quot;&gt;CSS3 transitions and SVG graphics for better performance&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#ability-to-turn-of-animations-in-configyml&quot; id=&quot;markdown-toc-ability-to-turn-of-animations-in-configyml&quot;&gt;Ability to turn of animations in _config.yml&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#readable-typography-to-make-your-words-shine&quot; id=&quot;markdown-toc-readable-typography-to-make-your-words-shine&quot;&gt;Readable typography to make your words shine&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#google-fonts&quot; id=&quot;markdown-toc-google-fonts&quot;&gt;Google Fonts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#other-features&quot; id=&quot;markdown-toc-other-features&quot;&gt;Other features&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#designed-by-an-electrical-engineer&quot; id=&quot;markdown-toc-designed-by-an-electrical-engineer&quot;&gt;Designed by an Electrical Engineer&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#questions&quot; id=&quot;markdown-toc-questions&quot;&gt;Questions?&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#requests&quot; id=&quot;markdown-toc-requests&quot;&gt;Requests?&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#license&quot; id=&quot;markdown-toc-license&quot;&gt;License&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/section&gt;
+&lt;!-- /#table-of-contents --&gt;
+
+&lt;h2 id=&quot;twitter-bootstrap-3&quot;&gt;Twitter Bootstrap 3&lt;/h2&gt;
+
+&lt;p&gt;Based on the latest Bootstrap its easy to update and customize to your own needs. Plus the power of the mobile first front-end framework adds to faster and easier web development.&lt;/p&gt;
+
+&lt;p&gt;See the list of theme elements.&lt;/p&gt;
+
+&lt;h2 id=&quot;option-to-set-parallax-featured-image-that-wraps-your-post-in-header-and-footer&quot;&gt;Option to set Parallax featured image that wraps your post in header and footer&lt;/h2&gt;
+
+&lt;p&gt;I always thought an article should wrap up in the end. What better way to do it other than wrapping it around with pictures? As we all know, a picture is worth a thousand words. Why not put 500 of those in the header and the rest in the footer to help writers tell their story?&lt;/p&gt;
+
+&lt;h2 id=&quot;variable-templates-for-articles-link-quotation-and-status-updates&quot;&gt;Variable templates for articles, link, quotation and status updates&lt;/h2&gt;
+
+&lt;p&gt;HMFAYSAL OMEGA Theme employs &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;post.type&quot;&lt;/code&gt; to assign variable templates article entries, link posts, quotation and status updates. No other Jekyll theme offers this functionality. In the future, more &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;post.types&quot;&lt;/code&gt; will be included.&lt;/p&gt;
+
+&lt;h2 id=&quot;responsive-images-and-magnific-popup-lightbox&quot;&gt;Responsive images and Magnific Popup Lightbox&lt;/h2&gt;
+
+&lt;p&gt;This theme supports responsive images and uses a responsive lightbox to showcase larger images. Images also use CSS3 transitions to turn to B&amp;amp;W when not hovered.&lt;/p&gt;
+
+&lt;h2 id=&quot;plugin-freegithub-pages-deployment-ready&quot;&gt;Plugin-free/Github Pages Deployment Ready&lt;/h2&gt;
+
+&lt;p&gt;Although featuring a mind-boggling number of features, this theme has been coded in such a way that it can be compiled without the usage of any plugins whatsoever. You do not have to worry about compatibility. Its ready for deployment on the Github Pages immediately.&lt;/p&gt;
+
+&lt;h2 id=&quot;read-time-calculator-calculation-of-post-read-time-based-on-word-count&quot;&gt;Read time Calculator: Calculation of post read-time based on word count&lt;/h2&gt;
+
+&lt;p&gt;I have been enjoying Medium.com as of lately and I simply love their Estimated Reading Time (ERT) of an article feature. What it does, it takes the word count of an article and calculates the ERT based on the average reading speed (ARS). While ARS is simply an estimation and it differs from person-to-person, Medium uses 180 Words-Per-Minute (WPM) as their ARS. I figured out that ARS in general is around 200 WPM. You can turn on or off this feature in the _config.yml file. Very recommended to use this feature as it increases user engagement.&lt;/p&gt;
+
+&lt;h2 id=&quot;simple-search-that-overlays-results-based-on-post-title&quot;&gt;Simple search that overlays results based on post title&lt;/h2&gt;
+
+&lt;p&gt;HMFAYSAL OMEGA Theme provides search using Christian Fei’s &lt;a href=&quot;https://github.com/christian-fei/Simple-Jekyll-Search&quot;&gt;Simple Jekyll jQuery plugin&lt;/a&gt; if you choose to enable search functionality in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file. Clicking search will trigger a fullscreen overlay that searches post titles’ using an autogenerated JSON file.&lt;/p&gt;
+
+&lt;h2 id=&quot;display-mathematical-equations-beautifully-via-mathjax&quot;&gt;Display mathematical equations beautifully via MathJax&lt;/h2&gt;
+
+&lt;p&gt;Both inline and displayed equations can be rendered via MathJax. HMFAYSAL OMEGA Theme supports MathJax natively.&lt;/p&gt;
+
+&lt;h2 id=&quot;css3-transitions-and-svg-graphics-for-better-performance&quot;&gt;CSS3 transitions and SVG graphics for better performance&lt;/h2&gt;
+
+&lt;p&gt;This theme uses subtle CSS3 transitions and SVG to showcase subtle animations for viewer pleasure. This ensures that optimal performance is guaranteed during page viewing.&lt;/p&gt;
+
+&lt;h2 id=&quot;ability-to-turn-of-animations-in-configyml&quot;&gt;Ability to turn of animations in _config.yml&lt;/h2&gt;
+
+&lt;p&gt;HMFAYSAL OMEGA Theme avoids Javascript animations to increase website performance. But if you are still facing some lag in your test device, you can turn off the animations in the _config.yml file.&lt;/p&gt;
+
+&lt;h2 id=&quot;readable-typography-to-make-your-words-shine&quot;&gt;Readable typography to make your words shine&lt;/h2&gt;
+
+&lt;p&gt;HMFAYSAL OMEGA Theme is a minimal, simple and responsive Jekyll theme built for maximum readability. The main design focus of HMFAYSAL OMEGA Theme is the typography and the clean design.&lt;/p&gt;
+
+&lt;h2 id=&quot;google-fonts&quot;&gt;Google Fonts&lt;/h2&gt;
+
+&lt;p&gt;This theme uses Google Webfonts instead of Adobe Edgefonts for performance.&lt;/p&gt;
+
+&lt;h2 id=&quot;other-features&quot;&gt;Other features&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Disqus comments if you choose to enable.&lt;/li&gt;
+  &lt;li&gt;Simple and clear permalink structure&lt;/li&gt;
+  &lt;li&gt;Footer Menu&lt;/li&gt;
+  &lt;li&gt;361 Fontawesome icons&lt;/li&gt;
+  &lt;li&gt;Tags for &lt;a href=&quot;https://developers.facebook.com/docs/opengraph/&quot;&gt;Open Graph&lt;/a&gt; and &lt;a href=&quot;https://dev.twitter.com/docs/cards&quot;&gt;Twitter Cards&lt;/a&gt; for a better social sharing experience&lt;/li&gt;
+  &lt;li&gt;Beautifully crafted &lt;a href=&quot;http://localhost:4000/404.html&quot;&gt;404 page&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Custom &lt;a href=&quot;http://localhost:4000/categories/&quot;&gt;categories&lt;/a&gt; and &lt;a href=&quot;http://localhost:4000/tags/&quot;&gt;tags&lt;/a&gt; pages for viewers pleasure&lt;/li&gt;
+  &lt;li&gt;Stylesheets for Pygments and Coderay to make your code examples look snazzy.&lt;/li&gt;
+  &lt;li&gt;Sitemap for search engines&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;designed-by-an-electrical-engineer&quot;&gt;Designed by an Electrical Engineer&lt;/h2&gt;
+
+&lt;p&gt;HMFAYSAL OMEGA Theme was designed by Hossain Mohd Faysal – an Electrical Engineer. I have to confess I am not a designer. So when you download this theme, you have to know you are not getting the best designed elements out there, but instead what you are getting is extremely clean code even though the site uses some highly complex liquid logic expressions.&lt;/p&gt;
+
+&lt;h3 id=&quot;questions&quot;&gt;Questions?&lt;/h3&gt;
+
+&lt;p&gt;Having a problem getting something to work or want to know why I setup something in a certain way? Read the &lt;a href=&quot;http://localhost:4000/documentation/&quot;&gt;theme documentation&lt;/a&gt; or ping me on Twitter &lt;a href=&quot;http://twitter.com/hmfaysal&quot;&gt;@hmfaysal&lt;/a&gt; or &lt;a href=&quot;https://github.com/hmfaysal/hmfaysal-omega-theme/issues/new&quot;&gt;file a GitHub Issue&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;requests&quot;&gt;Requests?&lt;/h3&gt;
+
+&lt;p&gt;If you have some specific requests for this theme, or if you need help custom coding some elements, message me on Twitter &lt;a href=&quot;http://twitter.com/hmfaysal&quot;&gt;@hmfaysal&lt;/a&gt; or email me at &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#104;&amp;#109;&amp;#102;&amp;#097;&amp;#121;&amp;#115;&amp;#097;&amp;#108;&amp;#064;&amp;#097;&amp;#108;&amp;#117;&amp;#109;&amp;#046;&amp;#109;&amp;#105;&amp;#116;&amp;#046;&amp;#101;&amp;#100;&amp;#117;&quot;&gt;&amp;#104;&amp;#109;&amp;#102;&amp;#097;&amp;#121;&amp;#115;&amp;#097;&amp;#108;&amp;#064;&amp;#097;&amp;#108;&amp;#117;&amp;#109;&amp;#046;&amp;#109;&amp;#105;&amp;#116;&amp;#046;&amp;#101;&amp;#100;&amp;#117;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;license&quot;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;This theme is free and open source software, distributed under the &lt;a href=&quot;http://localhost:4000/license/&quot;&gt;The MIT License&lt;/a&gt;. So feel free to use this Jekyll theme on your site without linking back to me or using a disclaimer.&lt;/p&gt;
+
+&lt;p&gt;If you’d like to give me credit somewhere on your blog or tweet a shout out to &lt;a href=&quot;https://twitter.com/hmfaysal&quot;&gt;@hmfaysal&lt;/a&gt;, that would be pretty sweet.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 12 Jan 2014 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/theme-setup/about-hmfaysal-omega.html</link>
+        <guid isPermaLink="true">http://localhost:4000/theme-setup/about-hmfaysal-omega.html</guid>
+        
+        <category>Jekyll</category>
+        
+        <category>HMFAYSAL OMEGA</category>
+        
+        <category>Features</category>
+        
+        
+        <category>Theme-Setup</category>
+        
+      </item>
+    
+      <item>
+        <title>Sample Status Post</title>
+        <description>&lt;p&gt;Oh Hello. This is a status post. Click here to learn about it more :-)&lt;/p&gt;
+
+&lt;p&gt;Don’t worry, you can enter additional details about your status update. Only the first paragraph &lt;code class=&quot;highlighter-rouge&quot;&gt;[p:first-child]&lt;/code&gt; will be shown in the home page :-)&lt;/p&gt;
+
+&lt;p&gt;To start a status post, simply run &lt;code class=&quot;highlighter-rouge&quot;&gt;rake newstatus[&#39;Some Status Title&#39;]&lt;/code&gt; in the command line. Or if you want to create the post by yourself, make sure your post contains the following contents in your post’s Front Matter YAML:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+layout: post
+type: status
+title: &quot;Sample Status Title&quot;
+description: 
+headline: 
+modified: YYYY-MM-DD
+category: status
+image: 
+  feature: 
+comments: true
+mathjax: 
+---
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sat, 11 Jan 2014 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/sample-posts/a-status.html</link>
+        <guid isPermaLink="true">http://localhost:4000/sample-posts/a-status.html</guid>
+        
+        <category>sample post</category>
+        
+        <category>status</category>
+        
+        
+        <category>Sample-Posts</category>
         
       </item>
     

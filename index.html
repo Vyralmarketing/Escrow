@@ -30,6 +30,6 @@ layout: default
     </ul>
   </div>
 </div>
-{% if pagination.total_pages > 1 %}
+{% if paginator.total_posts > 4 %}
   {% include pagination.html %}
 {% endif %}

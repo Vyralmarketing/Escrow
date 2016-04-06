@@ -1,6 +1,5 @@
 .content-wrapper
   background: white
-  padding-left: 6rem
   position: relative
   bottom: 5.5rem
   border-radius: 9px 9px 0 0
@@ -27,19 +26,6 @@
 
 .single.content-wrapper
   padding-left: 0
-
-@media(max-width: 1000px)
-  .single.content-wrapper
-    padding: 0 2rem
-
-@media (max-width: 775px)
-  .single.content-wrapper
-    padding-left: 2rem
-
-@media (max-width: 550px)
-  .content-wrapper
-    padding-left: 0
-    padding-right: 1.5rem
 
 .post-list
   li
@@ -109,3 +95,30 @@
   padding: 1rem
   font-size: 2.7rem
   font-weight: 200
+
+@media(max-width: 1000px)
+  .six.columns.post-wrapper
+    width: 100%
+  .content-wrapper
+    padding-right: 2rem
+
+@media (max-width: 1000px) and (min-width: 900px)
+  .six.columns.post-wrapper
+    width: 100%
+    height: 750px
+
+@media(max-width: 900px) and (min-width: 700px)
+  .six.columns.post-wrapper
+    height: 685px
+
+@media (max-width: 775px)
+  .content-wrapper
+    padding-right: 2rem
+  .single.content-wrapper
+    padding-left: 2rem
+  .post-wrapper
+    height: 575px
+
+@media (max-width: 550px)
+  .six.columns.post-wrapper
+    height: 530px

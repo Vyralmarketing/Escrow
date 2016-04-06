@@ -39,7 +39,7 @@
     {% endif %}
   {% endif %}
 
-  {% if paginator.total_pages > 10 %} First page
+  {% if paginator.total_pages > 5 %}
     <!-- First page -->
     {% if paginator.previous_page %}
       <a href="{{ site.baseurl }}/" class="first-page"></a>
@@ -91,7 +91,7 @@
   {% endif %}
 
 <!-- becomes active if over 10pages -->
-{% if paginator.total_pages > 10 %}
+{% if paginator.total_pages > 5 %}
   <!-- Last page-->
   {% if paginator.next_page %}
     <a href="{{ site.url }}/page{{ paginator.total_pages }}" class="last-page"></a>

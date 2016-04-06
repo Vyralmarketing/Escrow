@@ -1,5 +1,12 @@
 console.log("congrats, I'm loaded.");
 
+//Sticky Navbar
+jQuery(document).ready(function(){
+	$('#hamburger').click(function(){
+		$(this).toggleClass('open');
+    $('.top-menu').slideToggle("slow", function(){});
+	});
+
 // Navbar scroll transition
 $(function(){
   $(window).scroll(function(){
@@ -14,15 +21,13 @@ $(function(){
   });//win func.
 });//ready func.
 
-//Sticky Navbar
-jQuery(document).ready(function(){
-	$('#hamburger').click(function(){
-		$(this).toggleClass('open');
-    $('.top-menu').slideToggle("slow", function(){});
-	});
-
 });
 
+// $(document).scroll(function(){
+//         t = (400 - $(this).scrollTop())/400;
+//         if(t<0)t=0;
+//         $('#hero').css({opacity: t});
+//     })
 
 
 //Fluidvid.js
