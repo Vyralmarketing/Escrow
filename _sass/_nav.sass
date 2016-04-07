@@ -66,7 +66,7 @@
     &::before, &::after
       top: 1.1875rem
       width: 2rem
-      margin: 0 0 0 -1rem
+      margin: -1px 0 0 -1rem
     &::before
       @include transform(rotate(-135deg))
     &::after
@@ -75,11 +75,18 @@
 #page-nav
   .cta
     padding: 0.5rem
-
+  .button.cta
+    text-shadow: none
+    &:hover
+      color: white
+  .button-ghost.cta
+    &:hover
+      color: $brand
 @media (min-width: 775px)
   #hamburger
     display: none
-
+  #page-nav
+    height: 7rem
 @media (max-width: 775px)
   .top-nav, #page-nav
     background: $nav-background

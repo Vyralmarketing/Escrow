@@ -77,12 +77,88 @@
   font-size: 2.7rem
   font-weight: 200
 
+.row.title
+  position: relative
+
+.post-content
+  margin: 1rem
+
+.pullquote
+  font-style: italic
+  font-size: 2rem
+  text-align: center
+  //border-bottom: 1px dashed $brand-light
+  max-width: 70%
+  display: block
+  margin: 1.5rem auto
+  &:visited
+    color: $brand
+
+.post
+  #hero
+    @include display(flex)
+  .site-logo
+    max-width: 15rem
+    margin-top: 0rem
+
+  .site-title
+    font-size: 3rem
+    text-align: left
+    position: absolute
+    bottom: 0
+
+  .post-title
+    font-size: 5rem
+    margin: 2rem 0
+    color: white
+    text-transform: uppercase
+    text-shadow: $header-shadow
+
+  .headshot
+    width: 100%
+    max-width: 15rem
+    border-radius: 50%
+    @include transition(0.3s)
+    &:hover
+      @include transform(scale(0.9))
+  .fluid-vids
+    margin: 3rem 0
+
+.tag-container
+  color: white
+  text-shadow: $header-shadow
+  margin-bottom: 1rem
+.tag
+  text-transform: uppercase
+  color: white
+  font-weight: 300
+
+.author-attribution
+  color: white
+  font-weight: 300
+  text-shadow: $header-shadow
+  margin-bottom: 2rem
+  font-style: italic
+  a
+    color: white
+    &:hover
+      color: $brand-light
+
 @media(max-width: 1000px)
   .six.columns.post-wrapper
     width: 100%
   .content-wrapper
     padding-right: 2rem
+  .post
+    .site-logo
+      margin-top: $nav-height
+      margin-left: 1rem
+    .site-title
 
+    .post-title
+      font-size: 3rem
+    .headshot
+      display: none
 @media (max-width: 1000px) and (min-width: 900px)
   .six.columns.post-wrapper
     width: 100%
@@ -103,3 +179,13 @@
 @media (max-width: 550px)
   .six.columns.post-wrapper
     height: 530px
+  .post
+    .site-logo
+      margin-left: 0
+    .site-title
+      position: relative
+      text-align: center
+      font-size: 2rem
+    .post-title
+      font-size: 2.5rem
+      margin: 1.5rem
