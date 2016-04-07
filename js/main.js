@@ -12,10 +12,10 @@ $(function(){
   $(window).scroll(function(){
     var winTop = $(window).scrollTop();
     if(winTop <= 400){
-      $("#top-nav").removeClass("nav-inverse");
+      $("#top-nav, #page-nav").removeClass("nav-inverse");
       //$("#topnav-logo").addClass("hidden");
     }else{
-      $("#top-nav").addClass("nav-inverse");
+      $("#top-nav, #page-nav").addClass("nav-inverse");
       //$("#topnav-logo").removeClass("hidden");
     }//if-else
   });//win func.

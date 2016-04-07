@@ -3,6 +3,14 @@ title: Your awesome title
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Junk Culture
+author: Durwin Cheung
+twitter:
+  username: losslessdesign
+facebook:
+  app_id:
+  publisher:
+logo:
+social:
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://localhost:4000" # the base hostname & protocol for your site
 
@@ -26,6 +34,7 @@ gems:
   - octopress-autoprefixer
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Excludes
 exclude:

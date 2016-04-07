@@ -1,9 +1,38 @@
+.about .site-logo
+  max-width: 15rem
+  margin-top: 5rem
+
+.about .site-title
+  font-size: 3rem
+
+.about .page-title
+  color: white
+  text-shadow: $header-shadow
+  text-transform: uppercase
+  font-size: 6.5rem
+
 .about .headshot
   width: 100%
-  max-width: 30rem
+  max-width: 25rem
   border-radius: 50%
   display: block
   margin: 0 auto
+  position: relative
+  bottom: 0
+
+.zillow-logo
+  fill: white
+  max-height: 4rem
+  position: relative
+  top: 0.5rem
+
+.trulia-logo
+  @extend .zillow-logo
+  top: 0.2rem
+
+.yelp-logo
+  @extend .zillow-logo
+
 
 .about-content
   padding: 1rem
@@ -18,14 +47,6 @@
   margin: 1rem
   font-size: 2rem
 
-.about .socials
-  text-align: center
-  ul
-    list-style-type: none
-    li
-      display: inline-block
-      margin: 1rem
-
-  svg
-    height: 5rem
-    fill: $brand
+@media (max-width: 400px)
+  .about .socials svg
+    //height: 3.5rem

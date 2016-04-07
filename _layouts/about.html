@@ -4,24 +4,7 @@
   {% include head.html %}
 
   <body class="about">
-    <nav class="top-nav" id="top-nav">
-      <ul class="top-menu">
-        <li><a href="/">Home</a></li>
-        {% for page in site.pages %}
-          {% if page.title %}
-          <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-          {% endif %}
-        {% endfor %}
-        {% for item in site.data.settings.navigation %}
-          <li><a href="{{ item.url}}">{{ item.title}}</a></li>
-        {% endfor %}
-        <li><a href="{{site.data.settings.client.homeeval}}" class="button cta">Home Evaluation</a></li>
-        <li><a href="{{site.data.settings.client.homesearch}}" class="button-ghost cta">Home Search</a></li>
-      </ul>
-      <a href="#" id="hamburger" role="button">
-      <span></span>
-      </a>
-    </nav>
+    {% include page-nav.html %}
     <header id="hero" style="background-image: url({{site.data.settings.images.hero_image_path}}); background-color: {{site.data.settings.images.hero_background_hex}}">
       <div class="container">
         <div class="row">
@@ -29,9 +12,9 @@
             <!-- logo -->
             <a href="/"><img src="{{site.data.settings.images.hero_logo_path}}" alt="{{site.data.settings.client.company}}" class="site-logo"></a>
             <!--site title-->
-            <a href="{{site.data.settings.title}}"><h2>{{site.data.settings.title}}</h2></a>
+            <a href="{{site.data.settings.title}}"><h2 class="site-title">{{site.data.settings.title}}</h2></a>
             <!-- title -->
-            <a href="{{page.url | prepend: site.url}}"><h1 class="site-title">{{page.title}}</h1></a>
+            <a href="{{page.url | prepend: site.url}}"><h1 class="page-title">{{page.title}}</h1></a>
             <img src="{{site.data.settings.images.client_headshot_path}}" alt="{{site.data.settings.client.name}}" class="headshot">
           </div>
 
@@ -55,7 +38,9 @@
         </div>
       </div>
     </div>
-    {% include review-buttons.html %}
+    {% if site.data.settings.review_sm_icons == false %}
+      {% include review-buttons.html %}
+    {% endif %}
     <div class="container socials">
       {% include socials.html %}
     </div>

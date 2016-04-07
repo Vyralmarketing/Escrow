@@ -1,0 +1,47 @@
+.socials
+  text-align: center
+  margin-top: 0.7rem
+  ul
+    margin-bottom: 0.1rem
+    max-height: 5rem
+    list-style-type: none
+  li
+    padding: 0.3rem
+    display: inline-block
+  svg
+    fill: $brand
+    height: 4rem
+    border-radius: 50%
+    @include transition(1s cubic-bezier(0.4, 0, 0.2, 1))
+    &:hover
+      fill: $brand-light
+      @include transform(rotate(360deg))
+
+//For about page
+.about .socials
+  margin-bottom: 2rem
+  li
+    margin: 1rem
+  svg
+    height: 5rem
+    fill: $brand
+    &:hover
+      fill: $brand-light
+
+.footer-socials
+  .socials
+    text-align: center
+    margin: 2rem
+    list-style-type: none
+    li
+      display: inline-block
+      margin: 0
+    svg
+      height: 3rem
+      border-radius: 50%
+      fill: white
+      -webkit-transition: 1s cubic-bezier(0.4, 0, 0.2, 1)
+      transition: 1s cubic-bezier(0.4, 0, 0.2, 1)
+      &:hover
+        fill: $brand
+        @include transform(rotate(360deg))

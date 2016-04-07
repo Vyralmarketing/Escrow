@@ -20,16 +20,19 @@ client:
   VR_form: '#'
 
 socials:
-  facebook: 'http://facebook.com'
-  linkedin: 'http://linkedin.com'
-  gplus: '#'
-  youtube: '#'
-  twitter: '#'
+  facebook: '-#'
+  linkedin: '-#'
+  gplus: '-#'
+  youtube: '-#'
+  twitter: '-#'
   instagram: '#'
-  pintrest: '#'
+  pinterest: '#'
   zillow: '#'
   trulia: '#'
-  yelp: '#' 
+  yelp: '#'
+  podcast: '-#'
+
+review_sm_icons: false
 
 images:
   hero_image_path: /img/sf_downtown.jpg

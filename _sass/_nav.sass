@@ -72,14 +72,16 @@
     &::after
       @include transform(rotate(135deg))
 
-
+#page-nav
+  .cta
+    padding: 0.5rem
 
 @media (min-width: 775px)
   #hamburger
     display: none
 
 @media (max-width: 775px)
-  #top-nav
+  .top-nav, #page-nav
     background: $nav-background
     text-align: center
     ul
@@ -100,6 +102,9 @@
       @include transition(0.3s)
       &:hover
         background: $brand
+    .cta-li
+      &:hover
+        background: transparent
     a
       &:hover
         color: white

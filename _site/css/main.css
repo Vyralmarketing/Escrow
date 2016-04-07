@@ -1054,16 +1054,19 @@ table tr, table td {
     -webkit-transform: rotate(135deg);
     transform: rotate(135deg); }
 
+#page-nav .cta {
+  padding: 0.5rem; }
+
 @media (min-width: 775px) {
   #hamburger {
     display: none; } }
 @media (max-width: 775px) {
-  #top-nav {
+  .top-nav, #page-nav {
     background: rgba(0, 0, 0, 0.8);
     text-align: center; }
-    #top-nav ul {
+    .top-nav ul, #page-nav ul {
       margin-right: 0; }
-    #top-nav li {
+    .top-nav li, #page-nav li {
       display: block; }
 
   .top-menu {
@@ -1081,6 +1084,8 @@ table tr, table td {
         border-top: 3px solid rgba(0, 0, 0, 0.8); }
       .top-menu li:hover {
         background: #DD6B00; }
+    .top-menu .cta-li:hover {
+      background: transparent; }
     .top-menu a:hover {
       color: white; } }
 #hero {
@@ -1145,33 +1150,61 @@ table tr, table td {
     background: white;
     text-shadow: none; }
 
+.socials {
+  text-align: center;
+  margin-top: 0.7rem; }
+  .socials ul {
+    margin-bottom: 0.1rem;
+    max-height: 5rem;
+    list-style-type: none; }
+  .socials li {
+    padding: 0.3rem;
+    display: inline-block; }
+  .socials svg {
+    fill: #DD6B00;
+    height: 4rem;
+    border-radius: 50%;
+    -webkit-transition: 1s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 1s cubic-bezier(0.4, 0, 0.2, 1); }
+    .socials svg:hover {
+      fill: #ff9f44;
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg); }
+
+.about .socials {
+  margin-bottom: 2rem; }
+  .about .socials li {
+    margin: 1rem; }
+  .about .socials svg {
+    height: 5rem;
+    fill: #DD6B00; }
+    .about .socials svg:hover {
+      fill: #ff9f44; }
+
+.footer-socials .socials {
+  text-align: center;
+  margin: 2rem;
+  list-style-type: none; }
+  .footer-socials .socials li {
+    display: inline-block;
+    margin: 0; }
+  .footer-socials .socials svg {
+    height: 3rem;
+    border-radius: 50%;
+    fill: white;
+    -webkit-transition: 1s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 1s cubic-bezier(0.4, 0, 0.2, 1); }
+    .footer-socials .socials svg:hover {
+      fill: #DD6B00;
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg); }
+
 .content-wrapper {
   background: white;
   position: relative;
   bottom: 5.5rem;
   border-radius: 9px 9px 0 0;
   box-shadow: 0 2px 7px rgba(0, 0, 0, 0.5); }
-  .content-wrapper .socials {
-    text-align: center;
-    margin-top: 0.7rem; }
-    .content-wrapper .socials ul {
-      margin-bottom: 0.1rem;
-      max-height: 5rem;
-      list-style-type: none; }
-    .content-wrapper .socials li {
-      padding: 0.3rem;
-      display: inline-block; }
-    .content-wrapper .socials svg {
-      fill: #DD6B00;
-      height: 4rem;
-      border-radius: 50%;
-      -webkit-transition: 1s cubic-bezier(0.4, 0, 0.2, 1);
-      transition: 1s cubic-bezier(0.4, 0, 0.2, 1); }
-      .content-wrapper .socials svg:hover {
-        fill: #ff9f44;
-        background: #aa5200;
-        -webkit-transform: rotate(360deg);
-        transform: rotate(360deg); }
 
 .single.content-wrapper {
   padding-left: 0; }
@@ -1276,12 +1309,12 @@ table tr, table td {
   padding: 1rem;
   font-size: 3rem;
   font-weight: 300;
-  color: #999; }
+  color: #4A4A4A; }
   .paginator-links svg {
     fill: #DD6B00;
     max-width: 2rem; }
   .paginator-links .disabled {
-    fill: #999; }
+    fill: #4A4A4A; }
 
 /* Text components */
 .paginator-links .start-ellipsis::before,
@@ -1402,23 +1435,6 @@ footer {
 @media(max-width: 500px) {
   footer {
     text-align: center; } }
-.footer-socials {
-  text-align: center;
-  margin: 2rem;
-  list-style-type: none; }
-  .footer-socials li {
-    display: inline-block; }
-  .footer-socials svg {
-    height: 3rem;
-    border-radius: 50%;
-    fill: white;
-    -webkit-transition: 1s cubic-bezier(0.4, 0, 0.2, 1);
-    transition: 1s cubic-bezier(0.4, 0, 0.2, 1); }
-    .footer-socials svg:hover {
-      fill: #DD6B00;
-      -webkit-transform: rotate(360deg);
-      transform: rotate(360deg); }
-
 .attribution {
   text-align: center; }
 
@@ -1432,12 +1448,36 @@ footer {
   .vyral-logo:hover {
     fill: #ff9f44; }
 
+.about .site-logo {
+  max-width: 15rem;
+  margin-top: 5rem; }
+
+.about .site-title {
+  font-size: 3rem; }
+
+.about .page-title {
+  color: white;
+  text-shadow: 0 2px 7px black;
+  text-transform: uppercase;
+  font-size: 6.5rem; }
+
 .about .headshot {
   width: 100%;
-  max-width: 30rem;
+  max-width: 25rem;
   border-radius: 50%;
   display: block;
-  margin: 0 auto; }
+  margin: 0 auto;
+  position: relative;
+  bottom: 0; }
+
+.zillow-logo, .trulia-logo, .yelp-logo {
+  fill: white;
+  max-height: 4rem;
+  position: relative;
+  top: 0.5rem; }
+
+.trulia-logo {
+  top: 0.2rem; }
 
 .about-content {
   padding: 1rem; }
@@ -1452,17 +1492,6 @@ footer {
   width: 95%;
   margin: 1rem;
   font-size: 2rem; }
-
-.about .socials {
-  text-align: center; }
-  .about .socials ul {
-    list-style-type: none; }
-    .about .socials ul li {
-      display: inline-block;
-      margin: 1rem; }
-  .about .socials svg {
-    height: 5rem;
-    fill: #DD6B00; }
 
 #hero {
   background-position: center; }
