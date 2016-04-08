@@ -1212,6 +1212,12 @@ table tr, table td {
       -webkit-transform: rotate(360deg);
       transform: rotate(360deg); }
 
+@media (max-width: 320px) {
+  .socials svg {
+    height: 3rem; }
+
+  .footer-socials .socials svg {
+    height: 2.4rem; } }
 .content-wrapper {
   background: white;
   position: relative;
@@ -1305,8 +1311,6 @@ table tr, table td {
   max-width: 70%;
   display: block;
   margin: 1.5rem auto; }
-  .pullquote:visited {
-    color: #DD6B00; }
 
 .post #hero {
   display: -webkit-box;
@@ -1595,6 +1599,9 @@ footer {
   margin: 1rem;
   font-size: 2rem; }
 
+@media (max-width: 400px) {
+  .about .socials svg {
+    height: 3.5rem; } }
 #hero {
   background-position: center; }
 
@@ -1605,6 +1612,9 @@ footer {
 .post .headshot {
   -webkit-transform: rotate(15deg);
   transform: rotate(15deg); }
+  .post .headshot:hover {
+    -webkit-transform: rotate(15deg)scale(0.9);
+    transform: rotate(15deg)scale(0.9); }
 
 @media (min-width: 550px) {
   #hero {

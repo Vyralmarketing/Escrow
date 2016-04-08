@@ -20,11 +20,11 @@ client:
   VR_form: '#'
 
 socials:
-  facebook: '#'
-  linkedin: '#'
-  gplus: '#'
-  youtube: '#'
-  twitter: '#'
+  facebook: '-#'
+  linkedin: '-#'
+  gplus: '-#'
+  youtube: '-#'
+  twitter: '-#'
   instagram: '#'
   pinterest: '#'
   zillow: '#'
@@ -34,7 +34,7 @@ socials:
 
 #layout options
 review_sm_icons: false
-audit_header: true
+audit_header: false
 
 podcast:
   title: San Francisco Real Estate Podcast

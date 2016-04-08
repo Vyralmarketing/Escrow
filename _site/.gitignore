@@ -42,4 +42,12 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+#Jekyll goodies
+.sass_cache
+_site
+.sass-cache
+
+#Just in case...
+bower_components
+
 prepros.cfg

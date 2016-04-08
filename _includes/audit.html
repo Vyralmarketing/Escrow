@@ -3,36 +3,7 @@
     <div class="row">
       <div class="col col--12-of-12">
         <ul class="missing">
-          {% case audit %}
-            {% when site.data.settings.client.homeeval contains '#' %}
-              <li>Needs Home Eval Link</li>
 
-            {% when  site.data.settings.client.search == '#' %}
-              <li>Needs Home Search Link</li>
-
-            {% when  site.data.settings.client.VR_form == '#' %}
-              <li>Needs VR optin url</li>
-
-            {% when  site.data.settings.socials.facebook == '#' %}
-              <li>Needs Facebook Link</li>
-
-            {% when  site.data.settings.socials.linkedin == '#' %}
-              <li>Needs Linkedin Link</li>
-
-            {%when  site.data.settings.socials.gplus == '#' %}
-              <li>Needs Google Plus Link</li>
-
-            {% when site.data.settings.socials.twitter == '#' %}
-              <li>Needs Twitter Link</li>%}
-
-            {% when site.data.settings.socials.yelp == '#' %}
-              <li>Needs Yelp Link</li>%}
-
-            {% when site.data.settings.socials.yelp == '#' %}
-              <li>Needs Yelp Link</li>%}
-
-          {% endcase %}
-        {% comment %}
         {% if site.data.settings.client.homeeval == '#' %}
           <li>Needs Home Eval Link</li>
         {% endif%}
@@ -42,8 +13,7 @@
         {% if site.data.settings.VR_form == '#' %}
           <li>Needs VR optin url</li>
         {% endif %}
-        </ul>
-        <ul class="missing">
+
         {% if site.data.settings.socials.facebook == '#' %}
           <li>Needs Facebook Link</li>
         {% endif%}
@@ -53,10 +23,14 @@
         {% if site.data.settings.socials.gplus == '#' %}
           <li>Needs Google Plus Link</li>
         {% endif %}
+        {% if site.data.settings.socials.youtube == '#' %}
+          <li>Needs Youtube Link</li>
+        {% endif %}
         {% if site.data.settings.socials.twitter == '#' %}
           <li>Needs Twitter Link</li>
+        {% else %}
+          {% assign site.data.settings.audit_header = false  %}
         {% endif %}
-        {% endcomment %}
       </ul>
       </div>
     </div>
