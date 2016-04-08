@@ -20,19 +20,31 @@ client:
   VR_form: '#'
 
 socials:
-  facebook: '-#'
-  linkedin: '-#'
-  gplus: '-#'
-  youtube: '-#'
-  twitter: '-#'
+  facebook: '#'
+  linkedin: '#'
+  gplus: '#'
+  youtube: '#'
+  twitter: '#'
   instagram: '#'
   pinterest: '#'
   zillow: '#'
   trulia: '#'
   yelp: '#'
-  podcast: '-#'
+  podcast: '#'
 
+#layout options
 review_sm_icons: false
+audit_header: true
+
+podcast:
+  title: San Francisco Real Estate Podcast
+  categories:
+    - category: 'News &amp; Politics'
+  image: 'http://i.imgur.com/jJxfq9v.jpg'
+  subtitle: 'Learn all the tips, tricks and more for buyers and sellers in the San Francisco Area Real Estate Market'
+  description: 'If you are looking to buy or sell a home, get all the information and the latest updates, tips, and tricks from Durwin Homes Group - your professional San Francisco Real Estate Agents.'
+  keywords: 'Real Estate for sale, Real Estate agents, top real estate agents, local real estate agents, find a real estate agent, houses for sale in San Francisco, home selling tips, home for sale, home buying, home buying process, property finder, property search, property, real estate market, estate agent, realestate, real estate listings, buying a house, homes for sale, mls, home buyer'
+  author: Durwin Cheung
 
 images:
   hero_image_path: /img/sf_downtown.jpg
