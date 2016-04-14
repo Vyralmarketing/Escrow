@@ -29,6 +29,14 @@ $(function(){
 //         $('#hero').css({opacity: t});
 //     })
 
+$('#contact').click(function(){
+	$('.modal-wrapper').show();
+});
+
+$('.exit').click(function(){
+	$('.modal-wrapper').hide();
+});
+
 
 //Fluidvid.js
 

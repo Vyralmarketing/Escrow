@@ -1163,6 +1163,74 @@ table tr, table td {
     background: white;
     text-shadow: none; }
 
+.modal-wrapper {
+  display: none;
+  position: fixed;
+  z-index: 8;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-transition: 0.3s;
+  transition: 0.3s; }
+
+.contact-modal {
+  position: relative;
+  background: white;
+  padding: 2rem;
+  margin: 15% auto;
+  width: 80%;
+  max-width: 50rem;
+  border-radius: 15px;
+  box-shadow: 0 2px 7px black; }
+
+.exit {
+  position: absolute;
+  right: 2rem;
+  top: 1rem;
+  border-radius: 50%;
+  padding: 0.5rem;
+  line-height: 1.5rem;
+  -webkit-transition: 0.3s cubic-bezier(0.4, 0, 1, 1);
+  transition: 0.3s cubic-bezier(0.4, 0, 1, 1);
+  height: 3rem;
+  width: 3rem; }
+  .exit:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); }
+  .exit:focus {
+    outline: 0;
+    border: 0; }
+
+.contact-form {
+  width: 100%;
+  margin-bottom: 0; }
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+    border: 1px solid #999;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+    .contact-form input:focus::-webkit-input-placeholder, .contact-form textarea:focus::-webkit-input-placeholder {
+      color: transparent; }
+    .contact-form input:focus::-moz-placeholder, .contact-form textarea:focus::-moz-placeholder {
+      color: transparent; }
+    .contact-form input:focus:-moz-placeholder, .contact-form textarea:focus:-moz-placeholder {
+      color: transparent; }
+    .contact-form input:focus:-ms-input-placeholder, .contact-form textarea:focus:-ms-input-placeholder {
+      color: transparent; }
+  .contact-form textarea {
+    height: 15rem; }
+  .contact-form input[type="submit"] {
+    font-size: 1.5rem;
+    padding: 1rem;
+    border: 3px solid #DD6B00; }
+    .contact-form input[type="submit"]:hover {
+      border: 3px solid #ff9f44; }
+  .contact-form textarea:focus {
+    border: 1px solid #33C3F0; }
+
 .socials {
   text-align: center;
   margin-top: 0.7rem; }
