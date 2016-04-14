@@ -51,3 +51,15 @@ _site
 bower_components
 
 prepros.cfg
+
+_site/typetest.html
+
+_site/sitemap.xml
+
+_site/sitemap.xml
+
+_site/blog/sf-market.html
+
+_site/css/main.css
+
+_site/about/index.html
