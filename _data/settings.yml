@@ -1,6 +1,6 @@
-navigation:
+custom_links:
   - title: work
-    url: /projects.html
+    url: #
 
 title: San Francisco Real Estate Video Blog
 
@@ -13,8 +13,8 @@ client:
   phone: 1-234-567-8910
   email: someone@email.com
   url: getvyral.com
-  homeeval: '#'
-  search: '#'
+  homeeval: '/homevalue'
+  homesearch: '/homesearch'
   VR_form: '#'
 
 socials:

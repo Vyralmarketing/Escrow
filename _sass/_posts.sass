@@ -152,10 +152,13 @@
     .site-logo
       margin-top: $nav-height
       margin-left: 1rem
-    .site-title
 
     .post-title
       font-size: 3rem
+
+@media (max-width: 1000px)
+  .content-wrapper
+    box-shadow: none
 
 @media (max-width: 1000px) and (min-width: 900px)
   .six.columns.post-wrapper
@@ -169,6 +172,7 @@
 @media (max-width: 775px)
   .content-wrapper
     padding-right: 2rem
+    box-shadow: none
   .single.content-wrapper
     padding-left: 2rem
   .post-wrapper

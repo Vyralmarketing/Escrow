@@ -1,8 +1,4 @@
-<!-- Replace someone@email.com with client email-->
-
 <form method="post" class="home-value" action="http://vyralmarketing.com/staticforms/sendEmail.php" onsubmit="return setReturn()">
-    <input type="hidden" value="someone@email.com" name="emailTo">
-
     <fieldset>
         <p id="thanks"></p>
         <!--1-->
@@ -172,6 +168,12 @@
         <input type="submit" class="submit button" value="Submit" name="submitBuyerForm">
         <span class="asterisk">*</span>required
     </fieldset>
+      <!-- Cloud cannon settings field -->
+      <div class="hidden">
+        <input type="hidden" name="_to" value="{{client.email}}">
+        <input type="hidden" name="_subject" value="Contact Message From Your {{site.title}}">
+        <input type="text" name="_gotcha">
+      </div>
     </form>
 <script>
 function setReturn(){

@@ -1,16 +1,40 @@
----
-layout: default
----
-<div class="col col--12-of-12">
-  <article class="post">
+<!DOCTYPE html>
+<html>
 
-    <header class="post-header">
-      <h1 class="post-title">{{ page.title }}</h1>
+  {% include head.html %}
+
+  <body class="page">
+    {% include page-nav.html %}
+    {% include contact-modal.html %}
+    <header id="hero" style="background-image: url({{site.data.settings.images.hero_image_path}}); background-color: {{site.data.settings.images.hero_background_hex}}">
+      <div class="container">
+        <div class="row">
+          <div class="twelve columns">
+            <!-- logo -->
+            <a href="/"><img src="{{site.data.settings.images.hero_logo_path}}" alt="{{site.data.settings.client.company}}" class="site-logo"></a>
+            <!-- title -->
+            <a href="/"><h2 class="site-title">{{site.data.settings.title}}</h2></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="twelve columns">
+            <h1 class="page-title">{{page.title}}</h1>
+          </div>
+        </div>
+      </div>
     </header>
+    <main>
+      <div class="container content-wrapper">
+        {% include socials.html %}
+        <div class="row">
+          <div class="twelve columns">
+            {{ content }}
+          </div>
+        </div>
+      </div>
+    </main>
+    {% include newsletter.html %}
+    {% include footer.html %}
+  </body>
 
-    <div class="post-content">
-      {{ content }}
-    </div>
-
-  </article>
-</div>
+</html>
