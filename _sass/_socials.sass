@@ -46,6 +46,11 @@
         fill: $brand
         @include transform(rotate(360deg))
 
+@media (max-width: 500px)
+  .about
+    .socials
+      margin-bottom: 6rem
+
 @media (max-width: 400px)
   .socials
     svg
@@ -54,3 +59,13 @@
     .socials
       svg
         height: 2.4rem
+
+
+@media (max-width: 360px)
+  .about
+    .socials
+      margin-bottom: 9rem
+  .footer-socials
+    .socials
+      svg
+        height: 1.8rem

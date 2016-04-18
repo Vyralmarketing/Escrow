@@ -1,13 +1,13 @@
 <nav class="top-nav" id="top-nav">
   <ul class="top-menu">
     <li><a href="/">Home</a></li>
+    {% for item in site.data.settings.custom_links %}
+      <li><a href="{{ item.url}}">{{ item.title}}</a></li>
+    {% endfor %}
     {% for page in site.pages %}
       {% if page.in_nav == true %}
       <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
       {% endif %}
-    {% endfor %}
-    {% for item in site.data.settings.custom_links %}
-      <li><a href="{{ item.url}}">{{ item.title}}</a></li>
     {% endfor %}
     <li><a href="#contact" id="contact">Contact</a></li>
   </ul>
