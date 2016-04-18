@@ -1,6 +1,6 @@
 custom_links:
   - title: work
-    url: #
+    url: https://google.com
 
 title: San Francisco Real Estate Video Blog
 
@@ -13,22 +13,23 @@ client:
   phone: 1-234-567-8910
   email: bryce@getvyral.com
   url: getvyral.com
+  # if forms put '/homevalue/' or '/homesearch/'
   homeeval: '/homevalue/'
   homesearch: '/homesearch/'
   VR_form: http://oi.vresp.com?fid=cf8d350165
 
 socials:
-  facebook: '-#'
-  linkedin: '-#'
-  gplus: '-#'
-  youtube: '-#'
-  twitter: '-#'
+  facebook: 'https://facebook.com'
+  linkedin: 'https://linkedin.com'
+  gplus: 'https://plus.google.com'
+  youtube: 'https://youtube.com'
+  twitter: 'https://twitter.com'
   instagram: '#'
   pinterest: '#'
   zillow: '#'
   trulia: '#'
   yelp: '#'
-  podcast: '#'
+  podcast: 'http://itunes.com'
 
 #layout options
 review_sm_icons: false
