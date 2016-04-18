@@ -5,6 +5,9 @@
   border-radius: 9px 9px 0 0
   @include shadow
 
+.pad
+  padding: 2rem
+
 .single.content-wrapper
   padding-left: 0
 
@@ -81,7 +84,7 @@
   position: relative
 
 .post-content
-  margin: 1rem
+  padding: 1rem
 
 .pullquote
   font-style: italic
@@ -147,7 +150,7 @@
   .six.columns.post-wrapper
     width: 100%
   .content-wrapper
-    padding-right: 2rem
+    //padding-right: 2rem
   .post
     .site-logo
       margin-top: $nav-height
@@ -159,6 +162,8 @@
 @media (max-width: 1000px)
   .content-wrapper
     box-shadow: none
+  .six.columns.post-wrapper
+    margin: 0
 
 @media (max-width: 1000px) and (min-width: 900px)
   .six.columns.post-wrapper
@@ -171,12 +176,12 @@
 
 @media (max-width: 775px)
   .content-wrapper
-    padding-right: 2rem
     box-shadow: none
   .single.content-wrapper
-    padding-left: 2rem
+    //padding-left: 2rem
   .post-wrapper
     height: 575px
+
 
 @media (max-width: 550px)
   .six.columns.post-wrapper
