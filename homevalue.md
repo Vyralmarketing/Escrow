@@ -1,0 +1,7 @@
+---
+layout: page
+title: Home Evaluation
+permalink: /homevalue
+---
+
+{% include eval-form.html %}

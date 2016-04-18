@@ -1,0 +1,8 @@
+---
+layout: page
+title: Find Your Dream Home
+permalink: /homesearch
+in_menu: false
+---
+
+{% include homesearch.html %}
