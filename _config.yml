@@ -27,7 +27,7 @@ kramdown:
 highlighter: rouge
 
 paginate: 4
-permalink: none
+permalink: pretty
 
 gems:
   - jemoji
