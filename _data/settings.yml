@@ -15,7 +15,7 @@ client:
   url: getvyral.com
   homeeval: '/homevalue'
   homesearch: '/homesearch'
-  VR_form: '#'
+  VR_form: http://oi.vresp.com?fid=cf8d350165
 
 socials:
   facebook: '-#'

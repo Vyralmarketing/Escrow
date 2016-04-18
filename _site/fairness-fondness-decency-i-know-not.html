@@ -89,6 +89,8 @@
     
       
     
+      
+    
     
       <li><a href="">work</a></li>
     
@@ -104,7 +106,7 @@
     
 <div class="modal-wrapper">
   <div class="contact-modal" id="modal">
-    <strong>Contact Us</strong>
+    <strong class="label">Contact Us</strong>
     <button type="button" name="exit" class="exit">X</button>
     <form class="contact-form" method="post" action="#">
       <input type="text" name="name" placeholder="Name" required>
@@ -175,8 +177,8 @@
       <div class="twelve columns">
         <h2>Sign Up for Our Newsletter</h2>
         <p>Get up-to-date Real Estate news and tips every month</p>
-        <form action="#" method="post" class='newsletter_optin'>
-          <input type="email" placeholder="Email">
+        <form action="http://oi.vresp.com?fid=cf8d350165" method="post" class='newsletter_optin' target="vr_optin_popup" onsubmit="window.open( 'http://www.verticalresponse.com', 'vr_optin_popup', 'scrollbars=yes,width=600,height=450' ); return true;">
+          <input type="email" placeholder="Email"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"  required>
           <input type="submit" value="Sign up">
         </form>
       </div>

@@ -1,3 +1,5 @@
+//throw your individual page styles in here
+
 .page
   .site-title
     font-size: 4rem
@@ -5,3 +7,27 @@
     color: white
     text-shadow: $header-shadow
     text-transform: uppercase
+  .content-wrapper
+    padding: 2rem
+
+//thank you page
+.thankyou
+  text-align: center
+  margin-top: 3rem
+  svg
+    max-width: 50rem
+  &:first-child
+    p
+      margin-top: 2rem
+.checkmark
+  fill: $brand
+  @include animation(checkmark 1s 0.5s $ease-in-out-quad)
+
+.envelope
+  @include animation(checkmark 2s $ease-out-quint)
+
+@include keyframes(checkmark)
+  0%
+    @include transform(rotate(-15deg) scale(0.02))
+  100%
+    @include transform(rotate(0deg) scale(1) translate(-209px, -148px))

@@ -9,4 +9,28 @@
     border-radius: 5px
   input[type="submit"]
     font-size: inherit
+    padding: 1rem
     border: 3px solid $brand
+    &:hover
+      border: 3px solid $brand-light
+
+.contact-form
+  width: 100%
+  margin-bottom: 0
+  input, textarea
+    width: 100%
+    border: 1px solid #999
+    @include transition(0.3s)
+    &:focus
+      @include placeholder
+        color: transparent
+  textarea
+    height: 15rem
+  input[type="submit"]
+    font-size: 1.5rem
+    padding: 1rem
+    border: 3px solid $brand
+    &:hover
+      border: 3px solid $brand-light
+  textarea:focus
+    border: 1px solid #33C3F0

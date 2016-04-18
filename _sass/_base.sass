@@ -54,11 +54,10 @@ form
     display: block
     padding: 0.5rem
     border-radius: 5px
-    border: 1px solid grey
+    border: 1px solid gray
     margin: 1rem 0
   textarea
     display: block
-    border: 1px solid gray
     padding: 0.5rem
     border-radius: 5px
   select
@@ -90,6 +89,13 @@ form
     background: rgba(255,255,255,0.7)
     border: 3px solid white
     color: $brand
+
+.button-ghost.brand
+  border-color: $brand
+  color: $brand
+  &:hover
+    border-color: $brand-light
+    color: $brand-light
 
 table
   tr, td
