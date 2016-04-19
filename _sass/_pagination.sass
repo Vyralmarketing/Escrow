@@ -6,7 +6,7 @@
   color: #4A4A4A
   svg
     fill: $brand
-    max-width: 2rem
+    @include size(2rem)
   .disabled
     fill: #4A4A4A
 /* Text components */
@@ -57,3 +57,5 @@
 @media (max-width: 500px)
   .paginator-links
     font-size: 1.5rem
+    svg
+      @include size(1rem)
