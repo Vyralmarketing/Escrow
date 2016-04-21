@@ -1,7 +1,15 @@
-#Escrow
-*Get Jiggy with it*
+# Escrow
 
-The goal wasn't to create something pre-styled, but rather **easy** to style.
-It lays out common elements, and has the site struture and tools I like to use built it. Fun stuff.
+*a Jekyll theme for real estate agents who like to blog - yeeeeaah!*
 
-Use it if you like, I will.
+## Screenshots:
+
+Main Page:
+
+![Main Page](http://i.imgur.com/4lids74.jpg)
+
+About Page:
+
+![About Page](http://i.imgur.com/5nRTyRg.jpg)
+
+[Demo](http://giant-pepper.cloudvent.net)
