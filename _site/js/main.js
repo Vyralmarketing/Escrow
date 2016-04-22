@@ -1303,5 +1303,9 @@ $('.exit').click(function(){
 })(jQuery);
 //Damn that was long. Here's the callout:
 $(window).load(function() {
-	 $('.testimonials').flexslider();
+	 $('.testimonials').flexslider({
+	controlNav: true,
+	slideshow: false
+	//Allow height of the slider to animate smoothly in horizontal mode
+})
  });

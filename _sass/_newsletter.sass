@@ -1,6 +1,6 @@
 .newsletter
   background: $brand
-  color: white
+  color: $light-text
   text-align: center
   p
     margin-bottom: 0.5rem
@@ -11,9 +11,9 @@
   input
     vertical-align: middle
   input[type='email']
-    background: rgba(255,255,255,0.5)
+    background: rgba($light-text,0.5)
     border: 0
-    color: white
+    color: $light-text
     font-size: 2rem
     padding: 2.4rem
     width: 70%
@@ -21,26 +21,26 @@
     margin-right: 1rem
     @include transition(0.3s)
     @include placeholder
-      color: white
+      color: $light-text
     &:focus
-      background: white
+      background: $light-text
       color: $brand
       @include transform(translateY(-0.2rem))
       @include placeholder
         color: transparent
   input[type="submit"]
-    background: white
+    background: $light-text
     color: $brand
     padding: 1.3rem 2rem
     text-transform: capitalize
     font-size: 2rem
     font-weight: 300
-    border: 2px solid white
+    border: 2px solid $light-text
     @include transition(0.3s)
     &:hover
       background: $brand-light
-      color: white
-      box-shadow: 4px 4px 0 white
+      color: $light-text
+      box-shadow: 4px 4px 0 $light-text
       border: 2px solid $brand
       @include transform(scale(1.05))
       @include transform(translateY(-0.2rem))

@@ -12,7 +12,7 @@ html
 ::selection
   text-shadow: none
   background: $brand
-  color: white
+  color: $light-text
 
 ::-webkit-scrollbar
   width: 12px
@@ -75,7 +75,7 @@ a
 
 //Buttons
 .button, button, input[type="button"],input[type="submit"]
-  color: white
+  color: $light-text
   background: $brand
   padding: 0.5rem 2rem
   border: 3px solid $brand
@@ -84,18 +84,18 @@ a
   &:hover
     background: $brand-light
     border: 3px solid $brand-light
-    color: white
+    color: $light-text
   &:visited
-    color: white
+    color: $light-text
 
 
 .button-ghost
   @extend .button
   background: transparent
-  border: 3px solid white
+  border: 3px solid $light-text
   &:hover
     background: rgba(255,255,255,0.7)
-    border: 3px solid white
+    border: 3px solid $light-text
     color: $brand
 
 .button-ghost.brand
@@ -133,4 +133,4 @@ table
 //primarily for helper_header
 .warning
   background: red
-  color: white
+  color: $light-text

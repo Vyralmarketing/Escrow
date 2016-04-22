@@ -11,21 +11,30 @@ $bodyfont: 'Source Sans Pro', helvetica, arial, sans-serif
 $headerfont: 'Source Sans Pro', helvetica, arial, sans-serif
 
 //colors
-
+// If this is a really light color, you're going to have to mess around with some other settings.
 $brand: #DD6B00
 $brand-light: lighten($brand, 20%)
 $brand-dark: darken($brand, 10%)
 $bodycolor: #252525
 $transparent-black: rgba(0,0,0,0.5)
 
+// All the white text and fills, just incase you want to change it up. This effects almost everything though.
+$light-text: white
+
 $nav-background: transparentize(black, 0.2)
-$header-font-color: white
+$header-font-color: $light-text
+$footer-font-color: $light-text
 $header-shadow: 0 2px 7px black
 $post-wrapper-border: #D8D8D8
 $footer-background: #4A4A4A
 $readmore-border-color: $footer-background
 $form-border-color: gray
 $form-focus-outline: #33C3F0
+
+//icon fills
+$icon-fill: $light-text
+
+
 
 //Mixins
 @mixin size($n)
@@ -53,5 +62,6 @@ $form-focus-outline: #33C3F0
 @import "footer"
 //pages
 @import "about"
+@import "testimonials"
 //Leave me last
 @import "custom"
