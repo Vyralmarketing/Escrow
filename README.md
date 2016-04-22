@@ -83,15 +83,16 @@ Individual pages are
 
   The images do have some requirements, like the logo should be a png with a transparent background and doesn't need to be larger than 500px wide. If you plan ahead it makes the rest of the image gathering easy.
 
-    - open photoshop and export the logo as stated above - 500px and cropped at a squre ratio 1:1
-    -  Then also save it inside the site root folder as `siteicon.png`. This is just for cloudcannon's dashboard.
-    - go to [realfavicongenerator.net](http://realfavicongenerator.net/) and follow the instructions. It'll ask for an app name about have way down, use the site title. For theme colors  use whatever the `$brand` color is. When you get to the "favicon generator options" select the second radio button, "I do not want to place favicon..." and input /img/icons/ into the text field. Hit the button. Download the images and put them into the /img/icons/ folder. overwrite if there is already images in there. Copy the html and put it inside the _includes/head.html file. It goes at the very bottom just paste over what's already there.
+  - open photoshop and export the logo as stated above - 500px and cropped at a squre ratio 1:1
+  -  Then also save it inside the site root folder as `siteicon.png`. This is just for cloudcannon's dashboard.
+  - go to [realfavicongenerator.net](http://realfavicongenerator.net/) and follow the instructions. It'll ask for an app name about have way down, use the site title. For theme colors  use whatever the `$brand` color is. When you get to the "favicon generator options" select the second radio button, "I do not want to place favicon..." and input /img/icons/ into the text field. Hit the button. Download the images and put them into the /img/icons/ folder. overwrite if there is already images in there. Copy the html and put it inside the _includes/head.html file. It goes at the very bottom just paste over what's already there.
 
   Then go back to photoshop and export the logo again, this time cropping to the dimensions `375x435` and save out as twittercard.png. This is for sharing on social media.   
 
   The Headshot should be optimally be square, head and shoulder shot. The theme doesn't lend itself to team group shots, so keep that in mind.
 
   6. Next you'll want to adjust the colors, and adjust the css as needed. `main.sass` is the primary file with most of the settings in it. It should of course be very straightforward. The variables are as follows:
+```sass
 
           $main-width: this controls the width of the container element
           $nav-height: the height of the navbar. This will effect things like how much margin the logo has up top and line height etc.
@@ -104,14 +105,14 @@ Individual pages are
 
           $brand: This is the main color.
           $brand-light: lighten($brand, 20%) //automatically 20% lighter
-          $brand-dark: darken($brand, 10%)  //automatically 10% darker
+          $brand-dark: darken($brand, 10%)  // automatically 10% darker
           $bodycolor: font color for the body text
-          $transparent-black: rgba(0,0,0,0.5) color for all kinds of things, like the navbar and header shadows.
+          $transparent-black: color for all kinds of things, like the navbar and header shadows.
 
           $nav-background: this is the color of the navbar.
           $header-font-color: this controls the titles and navbar font colors
           $header-shadow: this is the dropshadow on text and the logo inside the site header.
-
+```
     The theme includes a custom.sass file for individual theme adjustments. It's a good practice to use it to overwrite things. Especially if you ever need to update the theme.
 
 
