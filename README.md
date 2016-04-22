@@ -82,9 +82,9 @@ Individual pages are
   5. The Images portion of the settings file control, *you guess it*, the images. `hero_logo_path` is the primary background image, `hero_logo_path` is the logo, and `client_headshot_path` is the headshot for the author that appears in posts and the about page. The `hero_background_hex` is the color of the header section. This is important because if you're on a slow connection the large hero image might take a while to download so you'll want the browser to pain a background so it appears at least, that it's loading faster, or makes the default white text visible. It should be the `$brand` color or preferably a color from the image.
 
   The images do have some requirements, like the logo should be a png with a transparent background and doesn't need to be larger than 500px wide. If you plan ahead it makes the rest of the image gathering easy.
-    * open photoshop and export the logo as stated above - 500px and cropped at a squre ratio 1:1
-    * Then also save it inside the site root folder as `siteicon.png`. This is just for cloudcannon's dashboard.
-    * go to [realfavicongenerator.net](http://realfavicongenerator.net/) and follow the instructions. It'll ask for an app name about have way down, use the site title. For theme colors  use whatever the `$brand` color is. When you get to the "favicon generator options" select the second radio button, "I do not want to place favicon..." and input /img/icons/ into the text field. Hit the button. Download the images and put them into the /img/icons/ folder. overwrite if there is already images in there. Copy the html and put it inside the _includes/head.html file. It goes at the very bottom just paste over what's already there.
+  * open photoshop and export the logo as stated above - 500px and cropped at a squre ratio 1:1
+  * Then also save it inside the site root folder as `siteicon.png`. This is just for cloudcannon's dashboard.
+  * Go to [realfavicongenerator.net](http://realfavicongenerator.net/) and follow the instructions. It'll ask for an app name about have way down, use the site title. For theme colors  use whatever the `$brand` color is. When you get to the "favicon generator options" select the second radio button, "I do not want to place favicon..." and input /img/icons/ into the text field. Hit the button. Download the images and put them into the /img/icons/ folder. overwrite if there is already images in there. Copy the html and put it inside the _includes/head.html file. It goes at the very bottom just paste over what's already there.
 
   Then go back to photoshop and export the logo again, this time cropping to the dimensions `375x435` and save out as twittercard.png. This is for sharing on social media.   
 
@@ -113,7 +113,7 @@ Individual pages are
           $header-shadow: this is the dropshadow on text and the logo inside the site header.
 ```
 The theme includes a custom.sass file for individual theme adjustments. It's a good practice to use it to overwrite things. Especially if you ever need to update the theme.
--------
+---------------------------------------
 And that should be all you really have to do. It took me about twenty minutes to do all of the above and some customizing.
 
 Some helpful links:
