@@ -1,9 +1,14 @@
+
+#for the navbar links.
 custom_links:
   - title: Our Listings
     url: https://google.com
 
+#site settings
 title: San Francisco Real Estate Video Blog
 description: Beats, Rhymths, life
+
+#controls all the site info
 client:
   market: Chicago
   name: Joe Somebody
@@ -18,6 +23,7 @@ client:
   homesearch: '/homesearch/'
   VR_form: http://oi.vresp.com?fid=cf8d350165
 
+# social links
 socials:
   facebook: 'https://facebook.com'
   linkedin: 'https://linkedin.com'
@@ -31,10 +37,7 @@ socials:
   yelp: '#'
   podcast: 'http://itunes.com'
 
-#layout options
-review_sm_icons: false
-audit_header: false
-
+#podcast settings
 podcast:
   title: San Francisco Real Estate Podcast
   categories:
@@ -45,6 +48,11 @@ podcast:
   keywords: 'Real Estate for sale, Real Estate agents, top real estate agents, local real estate agents, find a real estate agent, houses for sale in San Francisco, home selling tips, home for sale, home buying, home buying process, property finder, property search, property, real estate market, estate agent, realestate, real estate listings, buying a house, homes for sale, mls, home buyer'
   author: Durwin Cheung
 
+#layout options
+review_sm_icons: false
+audit_header: false
+
+#image settings
 images:
   hero_image_path: /img/sf_downtown.jpg
   hero_logo_path: /img/Durwin_logo_white.png

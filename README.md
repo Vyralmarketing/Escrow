@@ -9,7 +9,7 @@
      .JMMmmmmMMM M9mmmP'  YMbmd' .JMML.  `Ybmd9'     W      W     
 
 
-*A Jekyll theme for real estate agents who like to blog :heart:*
+*A Jekyll theme for real estate agents who like to blogging or podcasting :heart:*
 
 [Demo](http://giant-pepper.cloudvent.net)
 
@@ -116,9 +116,12 @@ The theme includes a custom.sass file for individual theme adjustments. It's a g
 ---------------------------------------
 And that should be all you really have to do. It took me about twenty minutes to do all of the above and some customizing.
 
+**Remember to switch the URL out in `_config.yml` before deploying for production**
+
 Some helpful links:
 - [Jekyllrb.com](http://jekyllrb.com/) - Jekyll's site and documentation
 - [Jekyll.tips](http://jekyll.tips/) - Jekyll tutorials and videos
+- [Shopify's guid to Liquid templating](https://shopify.github.io/liquid/)
 - [Daring Fireball's guide to markdown syntax](http://daringfireball.net/projects/markdown/)
 - [Github's mastering markdown](https://guides.github.com/features/mastering-markdown/)
 - [Emoji Cheat Sheet](http://www.emoji-cheat-sheet.com/) - all of the supported emojis.
@@ -126,6 +129,59 @@ Some helpful links:
 - [Bourbon.io](http://bourbon.io/docs/) - Helpful sass mixins
 - [Skeleton css](http://getskeleton.com/) - Skeleton is a css grid framework used by Escrow.   
 
+## Making Posts, Pages, and using Front Matter
+
+Front matter is where we store information for use by Jekyll. It goes at the very top of a page or post and looks like this:
+
+````yaml
+---
+layout: page
+permalink: /testimonials/
+title: Testimonials
+in_nav: true
+---
+````
+Like everything else it's pretty self explanatory.
+- `layout` controls the layout. Escrow has 4: default, page, post, and about.
+- `permalink` controls the url of the page/post. for instance: http://blog.com/testimonails/. It's **VERY IMPORTANT** that you remember to add that extra backslash to the end of the link or jekyll might not make it a page and will store it in a different location when serving the files. Permalinks should always look like this for Escrow: **/url/**
+- `title` is the title of the page or post
+- `in_nav` is for if you want it to be in the navigation bar or not. This has boolean attributes aka `true` or `false`.
+
+### Blog Post Front matter
+  Blog post front matter is laid out inside `_posts/_defaults.md` and is as follows:
+````yaml
+---
+layout: post
+title:
+category: blog  
+tags:
+  - Market Update
+  - Real Estate
+  - Buyer Tips
+  - Home Seller Tips
+excerpt:
+enclosure:
+pullquote:
+enclosure_type: video/mp4
+enclosure_time:
+image:
+---
+````
+Layout, title work the same as before. Category should remain blog unless you're making a new context. This effects the end URL. You'll notice that inside Escrow the blog posts are stored at /blog/post.html. This is personal preference and can be changed inside `_config.yml`.
+[More on that.](https://jekyllrb.com/docs/permalinks/)
+
+Tags are an extra cataloging element and work the way they do on other blogging platforms. Four are displayed, but I don't recommend having more than two. Three max or you might have them bumping lines on the post header. You can also make tags separated by comments way ie: one, two, three.
+
+`excerpt` controls the post excerpt on the main blog page. If you delete this, it'll default to the first paragraph.
+
+`pullquote` is the blog post pullquote. There is a prebuilt version inside `_defaults.md` that you can copy paste as needed. It's set up as a tweetable link, so be mindful of the character count.
+
+The next three are for podcasting. `enclosure_type` is set as `video/mp4`
+but for audio you can make it `audio/mpeg`. `enclosure` is the link to the audio file, `enclosure_time` is the length of the audio or video file for itunes.
+
+`image` is important, this should be a video screenshot or a photo of some kind. It'll default to the twittercard otherwise, which should just be the logo.
+
+It should be noted that to control the date for blog posts you add a `date:` in the front matter. It needs to be in this format: `'2016-03-21 08:00:00 -0600'` or `YYYY-MM-DD HH:MM:SS` respectively.
 
 ## Screenshots:
 

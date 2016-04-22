@@ -18,19 +18,20 @@
           </div>
           <!--site title-->
           <div class="ten columns">
-            <a href="/}"><h2 class="site-title">{{site.data.settings.title}}</h2></a>
+            <a href="/"><h2 class="site-title">{{site.data.settings.title}}</h2></a>
           </div>
           </div>
-          <div class="row">
+          <div class="row" itemscope itemtype="http://schema.org/BlogPosting">
             <!-- title -->
-            <a href="{{page.url | prepend: site.url}}"><h1 class="post-title">{{page.title}}</h1></a>
+            <a href="{{page.url | prepend: site.url}}"><h1 class="post-title" itemprop="name headline">{{page.title}}</h1></a>
+            <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished" style="display: none;">{{ page.date | date: "%b %-d, %Y" }}</time>
             <p class="tag-container">
               <em>in &nbsp;</em>
               {% for tag in page.tags | split: ","%}
                 <a href="/tags#{{ tag }}" class="tag">{{ tag }}</a>
               {% endfor %}
             </p>
-            <a href="/about/"><img src="{{site.data.settings.images.client_headshot_path}}" alt="{{site.data.settings.client.name}}" class="headshot"></a>
+            <a href="/about/" itemprop="author" itemscope itemtype="http://schema.org/Person"><img src="{{site.data.settings.images.client_headshot_path}}" alt="{{site.data.settings.client.name}}" class="headshot"></a>
             <p class="author-attribution">By <a href="/about/">{{site.data.settings.client.name}}</a></p>
           </div>
         </div>
@@ -41,6 +42,7 @@
       <div class="container">
         <div class="row">
           <div class="twelve columns post-content">
+            <p><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>
             {{ content }}
           </div>
         </div>
