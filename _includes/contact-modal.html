@@ -14,10 +14,10 @@
       <a href="tel:1-{{site.data.settings.client.phone}}">{{site.data.settings.client.phone}}</a>
       <br>
       <a href="mailto:{{site.data.settings.client.email}}">{{site.data.settings.client.email}}</a>
-      <br>
-      <a href="{{site.data.settings.client.url}}">{{site.data.settings.client.url | remove: "http://" | remove: "https://"}}
     </address>
+
     <button type="button" name="exit" class="exit">X</button>
+
     <form class="contact-form" method="post" action="#">
       <input type="text" name="name" placeholder="Name" required>
       <input type="email" name="_replyto" placeholder="Email" required>
@@ -31,5 +31,6 @@
 
       <input type="submit" value="submit">
     </form>
+
   </div>
 </div>

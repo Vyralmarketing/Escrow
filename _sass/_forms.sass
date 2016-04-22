@@ -5,7 +5,7 @@ form
     display: block
     padding: 0.5rem
     border-radius: 5px
-    border: 1px solid gray
+    border: 1px solid $form-border-color
     margin: 1rem 0
   textarea
     display: block
@@ -37,7 +37,7 @@ form
   margin-bottom: 0
   input, textarea
     width: 100%
-    border: 1px solid #999
+    border: 1px solid $form-border-color
     @include transition(0.3s)
     &:focus
       @include placeholder
@@ -51,4 +51,4 @@ form
     &:hover
       border: 3px solid $brand-light
   textarea:focus
-    border: 1px solid #33C3F0
+    border: 1px solid $form-focus-outline

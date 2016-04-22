@@ -9,6 +9,31 @@ html
   -webkit-font-smoothing: subpixel-antialiased
   -webkit-text-size-adjust: none
 
+::selection
+  text-shadow: none
+  background: $brand
+  color: white
+
+::-webkit-scrollbar
+  width: 12px
+
+//Pseudo ::scrollbar-button element
+::-webkit-scrollbar-button
+  background: $brand
+
+//Pseudo ::scrollbar-corner element
+::-webkit-scrollbar-corner
+  background: $brand
+
+//Pseudo ::scrollbar-thumb element
+::-webkit-scrollbar-thumb
+  background: $brand
+
+//Pseudo ::scrollbar-track element
+::-webkit-scrollbar-track
+  background: $footer-background
+
+
 body
   font-family: $bodyfont
   color: $bodycolor
