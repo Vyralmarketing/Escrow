@@ -2,20 +2,6 @@
 layout: page
 permalink: /testimonials/
 title: Testimonials
-in_nav: true
+in_nav: false
 ---
-
-<section>
-  <div class="row testimonial-wrapper">
-    <div class="twelve columns testimonials">
-      <ul class="slides">
-        {% for item in site.data.testimonials.testimonials %}
-          <li>
-            {{item.quote | prepend: '<p class="testimonial">' | append: '</p>'}}
-            {{item.name | prepend: '<p class="testimonial-attribute"> - ' | append: '</p>'}}
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
-</section>
+{% include testimonials.html %}

@@ -1,8 +1,6 @@
 .slides
   text-align: center
-  display: flex
-  justify-content: center
-  align-items: center
+
 
 .testimonial-wrapper
   position: relative
@@ -10,6 +8,18 @@
   margin: 5rem auto
   padding: 3rem
   display: flex
+  &::before
+    content: "“"
+    font-size: 8rem
+    position: absolute
+    left: -1rem
+    top: -2rem
+  &::after
+    content: "”"
+    font-size: 8rem
+    position: absolute
+    right: 0
+    bottom: 11rem
 
 
 .testimonial

@@ -1,0 +1,16 @@
+<section>
+  <div class="row testimonial-wrapper">
+    <div class="twelve columns testimonials">
+      <ul class="slides">
+        {% for item in site.data.testimonials.testimonials %}
+          <li>
+            {{item.quote | prepend: '<p class="testimonial">' | append: '</p>'}}
+            {{item.name | prepend: '<p class="testimonial-attribute"> - ' | append: '</p>'}}
+            <p>Listen to the whole Interview:</p>
+            <audio src="{{item.audio}}" controls="control" preload="auto">Your browser does not support HTML5 audio, please <a href="http://browsehappy.com/">update your browser.</a></audio>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>

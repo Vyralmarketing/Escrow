@@ -1305,7 +1305,8 @@ $('.exit').click(function(){
 $(window).load(function() {
 	 $('.testimonials').flexslider({
 	controlNav: true,
-	slideshow: false
+	slideshow: false,
+	smoothHeight: true
 	//Allow height of the slider to animate smoothly in horizontal mode
 })
  });
