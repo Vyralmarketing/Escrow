@@ -1,8 +1,8 @@
 
 #for the navbar links.
 custom_links:
-  - title: Our Listings
-    url: https://google.com
+  - title: Luxury Properties
+    url: http://www.sflivingspace.com/luxury-properties/
 
 #site settings
 title: San Francisco Real Estate Video Blog
@@ -10,14 +10,15 @@ description: Beats, Rhymths, life
 
 #controls all the site info
 client:
-  market: Chicago
-  name: Joe Somebody
-  brand: Castle Greyskull
-  brokerage: Keller Williams Realty
-  address: '123 Fake St. Eternia, NE'
-  phone: 1-234-567-8910
+  market: San Francisco
+  name: Durwin Cheung
+  brand: Distinctive Collection
+  brokerage: Better Homes and Gardens
+  address: '1 Daniel Burnham Court #260C <br>
+San Francisco, CA 94109'
+  phone: 1-415-867-2369
   email: bryce@getvyral.com
-  url: getvyral.com
+  url: http://www.sflivingspace.com
   # if forms put '/homevalue/' or '/homesearch/'
   homeeval: '/homevalue/'
   homesearch: '/homesearch/'
@@ -25,17 +26,17 @@ client:
 
 # social links
 socials:
-  facebook: 'https://facebook.com'
-  linkedin: 'https://linkedin.com'
-  gplus: 'https://plus.google.com'
-  youtube: 'https://youtube.com'
-  twitter: 'https://twitter.com'
+  facebook: 'https://www.facebook.com/DurwinHomes/'
+  linkedin: 'https://www.linkedin.com/in/durwincheung'
+  gplus: 'http://plus.google.com/106120372813474502294'
+  youtube: 'https://www.youtube.com/channel/UC9ZidMCfhkwVx_G2bemRqxg'
+  twitter: 'https://twitter.com/DurwinCheungSF'
   instagram: '#'
   pinterest: '#'
-  zillow: '#'
-  trulia: '#'
+  zillow: 'http://www.zillow.com/profile/durwincheung/'
+  trulia: 'http://www.trulia.com/profile/durwin-cheung-agent-san-francisco-ca-zgss3vz1/overview'
   yelp: '#'
-  podcast: 'http://itunes.com'
+  podcast: 'https://itunes.apple.com/us/podcast/san-francisco-real-estate/id1094796993?mt=2'
 
 #podcast settings
 podcast:

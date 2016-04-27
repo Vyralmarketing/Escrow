@@ -1,7 +1,7 @@
 # the subpath of your site, e.g. /blog
 baseurl: ""
 # the base hostname & protocol for your site. Don't let it end in '/' or you'll mess the links up
-url: "http://localhost:4000"
+url: "http://giant-pepper.cloudvent.net"
 
 # Build settings
 markdown: kramdown

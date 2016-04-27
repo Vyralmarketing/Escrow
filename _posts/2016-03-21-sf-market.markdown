@@ -1,14 +1,14 @@
 ---
 layout: post
-title: What Do Current San Francisco Market Conditions Mean for You?
+title: Why Are Home Inspections So Important in San Francisco?
 category: blog
-date: '2016-03-21 08:00:00 -0600'
+date: '2016-03-22 08:00:00 -0600'
 tags:
   - Market Update
-pullquote: 'Our market is pretty balanced for now, but we’re unsure how much longer it will last.'
+pullquote: 'The home inspection helps you know exactly what you’re getting into.'
 excerpt: 'It’s a pretty balanced market right now, but in most areas seller’s have a slight advantage.This time of year, inventory is typically quite low, so what we’re seeing now is pretty normal. You can expect to see more listings pop up in the early spring months.'
 enclosure: 'https://s3.amazonaws.com/vyralmarketing/Durwin+Cheung/San+Francisco+Real+Estate+Agent+The+State+of+the+San+Francisco+Mark.mp4'
-image: /img/Durwin_scn_sht.png
+image: /img/Durwin_scn_sht_2.png
 ---
 
 
