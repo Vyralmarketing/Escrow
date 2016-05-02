@@ -94,12 +94,20 @@
   max-width: 70%
   display: block
   margin: 1.5rem auto
+  @include transition(0.3s)
+  &:hover
+    &::after
+      background-position: left
   &::after
     content: ""
-    @include size(2rem)
-    background: url(/img/svg/twitter_be.svg)
+    height: 2rem
+    width: rem(40)
+    background: url(/img/svg/tweetlink.svg)
+    background-size: cover
+    background-position: right
     display: inline-block
     margin-left: 1rem
+    overflow: hidden
 
 .post
   #hero
