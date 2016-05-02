@@ -94,6 +94,12 @@
   max-width: 70%
   display: block
   margin: 1.5rem auto
+  &::after
+    content: ""
+    @include size(2rem)
+    background: url(/img/svg/twitter_be.svg)
+    display: inline-block
+    margin-left: 1rem
 
 .post
   #hero
@@ -145,6 +151,14 @@
     color: white
     &:hover
       color: $brand-light
+.post-share
+  text-align: center
+  #Twitter
+    fill: #1DA1F2
+  #facebook
+    fill: #3B5999
+  #Google_plus
+    fill: #D73D32
 
 @media(max-width: 1000px)
   .six.columns.post-wrapper
