@@ -59,3 +59,7 @@ images:
   hero_logo_path: /img/Durwin_logo_white.png
   hero_background_hex: '#2F3544'
   client_headshot_path: /img/durwin_headshot.png
+
+#colors
+brand_hex: "#DD6B00"
+fontcolor_hex: "#252525"
