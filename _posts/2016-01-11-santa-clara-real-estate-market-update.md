@@ -10,7 +10,7 @@ modified_time: '2016-07-05T09:33:51.826-07:00'
 thumbnail: https://img.youtube.com/vi/tBHVLoHEL1w/default.jpg
 blogger_id: tag:blogger.com,1999:blog-4989041625897431522.post-4281966620642208242
 blogger_orig_url: http://realestateprg.blogspot.com/2016/01/santa-clara-real-estate-market-update.html
-image: /img/screenshots/2.1youtube.jpg
+post-image: /img/screenshots/2.1youtube.jpg
 ---
 
 <iframe 
