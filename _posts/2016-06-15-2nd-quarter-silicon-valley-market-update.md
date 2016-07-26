@@ -17,8 +17,7 @@ pullquote: Don't give up hope!
 
 We're onto the second quarter in the Santa Clara County real estate market, so I wanted to give you a quick update. 
 
-When we last checked on the market, inventory was just over 1,000 homes, average price was around $860,000, average days on market sat about 69, and the interest rates were sitting around 3.75%. So what's happened since then? Well, we're entering** a presidential election, and the Federal Reserve increased interest rates.** People thought this would increase mortgage 
-interest rates, but they actually came down a little bit. 
+When we last checked on the market, inventory was just over 1,000 homes, average price was around $860,000, average days on market sat about 69, and the interest rates were sitting around 3.75%. So what's happened since then? Well, we're entering** a presidential election, and the Federal Reserve increased interest rates.** People thought this would increase mortgage interest rates, but they actually came down a little bit. 
 
 <a href="https://twitter.com/home/?status={{page.pullquote}}%20{{site.url}}{{page.url}}%20via%40{{site.data.settings.socials.twitter | remove: 'https://twitter.com/'}}" target='_blank' class="pullquote">&#8220;{{page.pullquote}}&#8221;</a>
 
