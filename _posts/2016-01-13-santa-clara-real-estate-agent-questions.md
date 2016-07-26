@@ -10,6 +10,7 @@ thumbnail: https://img.youtube.com/vi/m810_x5Tqug/default.jpg
 pullquote: Here at PRG Real Estate, we are all full-time agents.
 blogger_id: tag:blogger.com,1999:blog-4989041625897431522.post-4929269892031267340
 blogger_orig_url: http://realestateprg.blogspot.com/2016/01/santa-clara-real-estate-agent-questions.html
+image: https://img.youtube.com/vi/m810_x5Tqug/default.jpg
 ---
 <iframe width="652" height="367" src="https://www.youtube.com/embed/m810_x5Tqug" frameborder="0" allowfullscreen></iframe>
 When it comes time for you to hire a real estate agent, you have almost too many options. **Today we are going to discuss the top 5 questions you should be asking any real estate agent before you hire them**, so you can filter through the plethora of agents out there in order to find the right one for you. 
