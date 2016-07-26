@@ -1,8 +1,8 @@
 
 #for the navbar links.
-#custom_links:
- # - title: #
- #   url: #
+custom_links:
+  - title: #
+  url: #
 
 #site settings
 title: Enrique Medellin Real Estate Video Blog
