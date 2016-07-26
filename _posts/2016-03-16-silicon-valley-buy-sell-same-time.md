@@ -10,6 +10,7 @@ modified_time: '2016-07-05T09:33:16.140-07:00'
 thumbnail: https://img.youtube.com/vi/I2LlffaYuqU/default.jpg
 blogger_id: tag:blogger.com,1999:blog-4989041625897431522.post-9025271890677577954
 blogger_orig_url: http://realestateprg.blogspot.com/2016/03/silicon-valley-buy-sell-same-time.html
+image: /img/screenshots/3.2%20youtube.jpg
 ---
 
 <div class="embed-container"><!--insert embed code here-->     <iframe 
