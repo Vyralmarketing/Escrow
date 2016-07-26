@@ -9,7 +9,8 @@ modified_time: '2016-07-22T09:23:01.011-07:00'
 thumbnail: https://img.youtube.com/vi/JrRxuvOB23E/default.jpg
 blogger_id: tag:blogger.com,1999:blog-4989041625897431522.post-640190771792024333
 blogger_orig_url: http://realestateprg.blogspot.com/2016/07/whats-deal-with-home-inspections.html
-pullquote: The seller should expect that there will be issues from the inspection that will need to be worked out. 
+pullquote: The seller should expect that there will be issues from the inspection that will need to be worked out.
+image: /img/screenshots/inspecting%20youtube.jpg
 ---
 
 <iframe allowfullscreen="" frameborder="0" height="270" src="https://www.youtube.com/embed/JrRxuvOB23E" width="480"></iframe> 
