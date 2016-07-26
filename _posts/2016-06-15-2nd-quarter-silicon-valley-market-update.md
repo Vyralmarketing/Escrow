@@ -9,7 +9,7 @@ modified_time: '2016-07-05T09:32:25.169-07:00'
 thumbnail: https://img.youtube.com/vi/pN0l1UR4JXs/default.jpg
 blogger_id: tag:blogger.com,1999:blog-4989041625897431522.post-5247570046430132565
 blogger_orig_url: http://realestateprg.blogspot.com/2016/06/2nd-quarter-silicon-valley-market-update.html
-image: /img/screenshots/5.1%20youtube.jpg
+image: /img/screenshots/4.2%20youtube.jpg
 pullquote: Don't give up hope!
 ---
 
