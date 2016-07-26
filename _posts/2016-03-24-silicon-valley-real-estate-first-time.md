@@ -9,7 +9,7 @@ modified_time: '2016-07-05T09:33:02.617-07:00'
 thumbnail: https://img.youtube.com/vi/lxBtVDG53Ns/default.jpg
 blogger_id: tag:blogger.com,1999:blog-4989041625897431522.post-978684005490137846
 blogger_orig_url: http://realestateprg.blogspot.com/2016/03/silicon-valley-real-estate-first-time.html
-image: /image/screenshots/4.1%20youtube.jpg
+image: /image/screenshots/3.2%20youtube.jpg
 pullquote: Get Educated on the home buying process.
 ---
 
