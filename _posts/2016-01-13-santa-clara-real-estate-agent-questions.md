@@ -7,6 +7,7 @@ tags:
 - Silicon Valley Real Estate Agent Questons
 modified_time: '2016-07-05T09:33:40.794-07:00'
 thumbnail: https://img.youtube.com/vi/m810_x5Tqug/default.jpg
+pullquote: Here at PRG Real Estate, we are all full-time agents.
 blogger_id: tag:blogger.com,1999:blog-4989041625897431522.post-4929269892031267340
 blogger_orig_url: http://realestateprg.blogspot.com/2016/01/santa-clara-real-estate-agent-questions.html
 ---
