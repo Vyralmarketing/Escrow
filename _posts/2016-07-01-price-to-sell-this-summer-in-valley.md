@@ -10,7 +10,7 @@ thumbnail: https://img.youtube.com/vi/4X1X3wELrrY/default.jpg
 blogger_id: tag:blogger.com,1999:blog-4989041625897431522.post-1303210117743558759
 blogger_orig_url: http://realestateprg.blogspot.com/2016/07/price-to-sell-this-summer-in-valley.html
 pullquote: Homes have peak interest level in the first 30 days.
-image: /img/screenshots/open%20price%20to%20%sell%20youtube.jpg
+image: /img/screenshots/pricetosellyoutube.jpg
 ---
 
 <iframe allowfullscreen="" frameborder="0" height="270" src="https://www.youtube.com/embed/4X1X3wELrrY" width="480"></iframe> 
