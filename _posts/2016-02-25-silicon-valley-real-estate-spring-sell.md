@@ -10,7 +10,7 @@ modified_time: '2016-07-05T09:33:30.429-07:00'
 thumbnail: https://img.youtube.com/vi/Wr0arnABMkc/default.jpg
 blogger_id: tag:blogger.com,1999:blog-4989041625897431522.post-1937483739066378685
 blogger_orig_url: http://realestateprg.blogspot.com/2016/02/silicon-valley-real-estate-spring-sell.html
-image: /img/screenshots/2.2-youtube.jpg
+image: /img/screenshots/3.1-youtube.jpg
 ---
 
 <iframe 
