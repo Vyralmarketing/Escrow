@@ -2,7 +2,7 @@
 layout: post
 title: 5 Questions to Ask an Agent Before Hiring Them
 date: '2016-01-13T11:09:00.003-08:00'
-author: Vyral Admin
+author: Enrique Medellin
 tags:
 - Silicon Valley Real Estate Agent Questons
 modified_time: '2016-07-05T09:33:40.794-07:00'
@@ -25,6 +25,4 @@ When it comes time for you to hire a real estate agent, you have almost too many
 
 <a href="https://twitter.com/home/?status={{page.pullquote}}%20{{site.url}}{{page.url}}%20via%40{{site.data.settings.socials.twitter | remove: 'https://twitter.com/'}}" target='_blank' class="pullquote">&#8220;{{page.pullquote}}&#8221;</a>
 
-Thanks for joining me today. If you have any questions about this topic, or are looking to buy or sell in 
-Silicon Valley, give us a call or send us an email. We would love to hear from 
-you! 
+Thanks for joining me today. If you have any questions about this topic, or are looking to buy or sell in Silicon Valley, give us a call or send us an email. We would love to hear from you! 
