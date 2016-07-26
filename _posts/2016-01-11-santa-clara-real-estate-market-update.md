@@ -5,6 +5,7 @@ date: '2016-01-11T08:52:00.001-08:00'
 author: Enrique Medellin
 tags:
 - Market Update
+pullquote: Low inventory meand you can sell for top dollar!
 modified_time: '2016-07-05T09:33:51.826-07:00'
 thumbnail: https://img.youtube.com/vi/tBHVLoHEL1w/default.jpg
 blogger_id: tag:blogger.com,1999:blog-4989041625897431522.post-4281966620642208242
