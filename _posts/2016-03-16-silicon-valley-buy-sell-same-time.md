@@ -25,14 +25,6 @@ Regardless of what you end up doing, **it’s crucial to be aware of market cond
 
 <a href="https://twitter.com/home/?status={{page.pullquote}}%20{{site.url}}{{page.url}}%20via%40{{site.data.settings.socials.twitter | remove: 'https://twitter.com/'}}" target='_blank' class="pullquote">&#8220;{{page.pullquote}}&#8221;</a>
 
-In this market, sellers need to be aware of something called 
-rent-backs. Basically, **a rent-back is a situation in which the seller asks 
-the buyer to rent back the property** from the new buyers. This agreement 
-extends the closing so that sellers can remain in their house, while paying 
-rent to the buyer, as they finalize their new living situation. Many sellers 
-have found this to be a great way to purchase a new home without having to 
-move more than once. 
+In this market, sellers need to be aware of something called rent-backs. Basically, **a rent-back is a situation in which the seller asks the buyer to rent back the property** from the new buyers. This agreement extends the closing so that sellers can remain in their house, while paying rent to the buyer, as they finalize their new living situation. Many sellers have found this to be a great way to purchase a new home without having to move more than once. 
 
-If you have questions about how you can make your move as smooth as possible, 
-or if you have any questions about our local market, please don’t hesitate to 
-reach out to us. We would love to give you a hand!
+If you have questions about how you can make your move as smooth as possible, or if you have any questions about our local market, please don’t hesitate to reach out to us. We would love to give you a hand!
