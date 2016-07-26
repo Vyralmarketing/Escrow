@@ -13,41 +13,14 @@ blogger_orig_url: http://realestateprg.blogspot.com/2016/03/silicon-valley-buy-s
 image: /img/screenshots/3.2%20youtube.jpg
 ---
 
-<div class="embed-container"><!--insert embed code here-->     <iframe 
-allowfullscreen="" frameborder="0" height="270" 
-src="https://www.youtube.com/embed/I2LlffaYuqU" width="480"></iframe> 
-<!--end--> 
-<div style="text-align: center;"><span style="font-family: &quot;arial&quot; , 
-&quot;helvetica&quot; , sans-serif;">**Want to 
-[*sell*](http://realestateprg.blogspot.com/p/free-home-value-report.html) your 
-home? Get a FREE home value report.**<div style="text-align: center;"><span 
-style="font-family: &quot;arial&quot; , &quot;helvetica&quot; , 
-sans-serif;">**Want to 
-[*buy*](http://realestateprg.blogspot.com/p/find-your-dream-home.html) a home? 
-Search all homes for sale. ** 
+<iframe allowfullscreen="" frameborder="0" height="270" src="https://www.youtube.com/embed/I2LlffaYuqU" width="480"></iframe> 
+If you plan on selling your current house and buying a new one, there are a few things you need to take into consideration. 
 
-<div style="text-align: left;"><span style="font-family: &quot;arial&quot; , 
-&quot;helvetica&quot; , sans-serif;">If you plan on selling your current house 
-and buying a new one, there are a few things you need to take into 
-consideration. 
+The first question to ask is **whether you need the equity from your current property in order to purchase a new property.** If the answer is yes, we suggest you list the property you’re living in first, in order to have the purchasing power necessary to buy your next home. 
 
-The first question to ask is **whether you need the equity from your current 
-property in order to purchase a new property.** If the answer is yes, we 
-suggest you list the property you’re living in first, in order to have the 
-purchasing power necessary to buy your next home. 
+If you have the cash in the bank to buy your next home without having to sell, it’s a great position to be in. In that case, you can go ahead and start looking at properties before you even list. However, **you should be aware of the possibility that you might have two mortgages at the same time.** 
 
-If you have the cash in the bank to buy your next home without having to sell, 
-it’s a great position to be in. In that case, you can go ahead and start 
-looking at properties before you even list. However, **you should be aware of 
-the possibility that you might have two mortgages at the same time.** 
-
-Regardless of what you end up doing, **it’s crucial to be aware of market 
-conditions. **Here in Silicon Valley, it’s a very competitive market<span 
-style="font-family: &quot;arial&quot; , &quot;helvetica&quot; , sans-serif;">; 
-there is a lot of inventory and there are a lot of buyers. In this situation, 
-**putting an offer on a home that is contingent on you selling your current 
-home is not going to make you look as powerful** as someone else who has 
-already sold their home and has some money in the bank. 
+Regardless of what you end up doing, **it’s crucial to be aware of market conditions. **Here in Silicon Valley, it’s a very competitive market there is a lot of inventory and there are a lot of buyers.** In this situation, **putting an offer on a home that is contingent on you selling your current home is not going to make you look as powerful** as someone else who has already sold their home and has some money in the bank. 
 
 <div class="separator" style="clear: both; text-align: center;">[<img 
 border="0" height="116" 
