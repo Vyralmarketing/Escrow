@@ -20,8 +20,8 @@ San Jose, CA 95131'
   email: Enrique@realestatePRG.com
   url: http://RealEstatePRG.com
   # if forms put '/homevalue/' or '/homesearch/'
-  homeeval: 'http://realestateprg.blogspot.com/p/free-home-value-report.html'
-  homesearch: 'http://realestateprg.blogspot.com/p/find-your-dream-home.html'
+  homeeval: '/homevalue/'
+  homesearch: '/homesearch/'
   VR_form: http://oi.vresp.com?fid=0d42af93c9
 
 # social links
