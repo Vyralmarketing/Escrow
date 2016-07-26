@@ -16,7 +16,7 @@ pullquote: Get Educated on the home buying process.
 <iframe 
 width="480" height="270" src="https://www.youtube.com/embed/lxBtVDG53Ns" 
 frameborder="0" allowfullscreen></iframe>
-**Today, we’ll be discussing four valuable tips for first-time home buyers in the surrounding Silicon Valley area. Blanca Medellin, a real estate buying agent on our team, joins us to discuss important advice for first-time home buyers. If you’re looking to purchase a home this spring, this is especially relevant to you! 
+**Today, we’ll be discussing four valuable tips for first-time home buyers** in the surrounding Silicon Valley area. Blanca Medellin, a real estate buying agent on our team, joins us to discuss important advice for first-time home buyers. If you’re looking to purchase a home this spring, this is especially relevant to you! 
 
 **1. Save up for your down payment.** In today’s conditions, most lenders require anywhere from 3% to 30% in a down payment. Be prepared to pay more than you initially anticipate.
 
