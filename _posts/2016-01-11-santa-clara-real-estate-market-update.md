@@ -15,7 +15,7 @@ blogger_orig_url: http://realestateprg.blogspot.com/2016/01/santa-clara-real-est
 <iframe 
 allowfullscreen="" frameborder="0" height="270" 
 src="https://www.youtube.com/embed/tBHVLoHEL1w" width="480"></iframe> 
-What does the real estate market look like in Santa Clara County? 
+##What does the real estate market look like in Santa Clara County? 
 
 Currently, there are just over 1,000 active homes on the market. The average sales price is $860,000, and homes spend an average of 69 days on the market. In more desirable areas, homes are on the market for one or two weeks! 
 
