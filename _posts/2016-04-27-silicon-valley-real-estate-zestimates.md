@@ -9,7 +9,7 @@ modified_time: '2016-07-05T09:32:41.095-07:00'
 thumbnail: https://img.youtube.com/vi/DrMYZ3hPeyU/default.jpg
 blogger_id: tag:blogger.com,1999:blog-4989041625897431522.post-1969902646829235614
 blogger_orig_url: http://realestateprg.blogspot.com/2016/04/silicon-valley-real-estate-zestimates.html
-image: /img/screenshots/4.2%20youtube.jpg
+image: /img/screenshots/5.1%20youtube.jpg
 pullquote: Only a professional can give you an accurate valuation.
 ---
 
