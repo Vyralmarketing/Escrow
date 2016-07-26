@@ -2,6 +2,7 @@
 layout: post
 title: Is Your Silicon Valley Home Ready to Sell This Spring?
 date: '2016-02-25T13:20:00.002-08:00'
+pullquote: Stage your home to appeal to more buyers.
 author: Enrique Medellin
 tags:
 - Silicon Valley Real Estate Home Seller Tips
@@ -26,9 +27,6 @@ The busiest selling season is approaching quickly. Today, we’ll go over **five
 
 **5. Get a home inspection.** A home inspection will tell you if anything is wrong with the property. Then you can decide if you want to address those issues up front or make adjustments in the price before listing your home. It’s better to know what’s wrong with the home rather than finding out during negotiations with the buyer, which can save you thousands of dollars.
 
-<div class="separator" style="clear: both; text-align: center;">[<img 
-border="0" height="116" 
-src="https://2.bp.blogspot.com/-LPFFdAhNReI/Vs9wJxjRM4I/AAAAAAAAm90/YIzTM6HigEc/s320/3.1%2Bpull.jpg" 
-width="320" 
-/>](https://2.bp.blogspot.com/-LPFFdAhNReI/Vs9wJxjRM4I/AAAAAAAAm90/YIzTM6HigEc/s1600/3.1%2Bpull.jpg)
+<a href="https://twitter.com/home/?status={{page.pullquote}}%20{{site.url}}{{page.url}}%20via%40{{site.data.settings.socials.twitter | remove: 'https://twitter.com/'}}" target='_blank' class="pullquote">&#8220;{{page.pullquote}}&#8221;</a>
+
 If you have any questions, give us a call or send us an email. We would be happy to help you! 
