@@ -12,25 +12,7 @@ blogger_id: tag:blogger.com,1999:blog-4989041625897431522.post-49292698920312673
 blogger_orig_url: http://realestateprg.blogspot.com/2016/01/santa-clara-real-estate-agent-questions.html
 ---
 
-<div class="embed-container"><!--insert embed code here-->     <iframe 
-width="480" height="270" src="https://www.youtube.com/embed/m810_x5Tqug" 
-frameborder="0" allowfullscreen></iframe><!--end--> 
-<div style="text-align: center;"><span style="font-family: &quot;arial&quot; , 
-&quot;helvetica&quot; , sans-serif;">**Want to 
-[*sell*](http://realestateprg.blogspot.com/p/free-home-value-report.html) your 
-home? Get a FREE home value report.**<div style="background-color: white; 
-font-family: Arial,Tahoma,Helvetica,FreeSans,sans-serif; font-size: 15.4px; 
-line-height: 21.56px; text-align: center;"><span style="font-family: 
-&quot;arial&quot; , &quot;helvetica&quot; , sans-serif;">**Want to 
-[*buy*](http://realestateprg.blogspot.com/p/find-your-dream-home.html) a home? 
-Search all homes for sale.** 
-<span style="font-family: &quot;arial&quot; , &quot;helvetica&quot; , 
-sans-serif;"><span style="font-size: normal;">When it comes time for you to 
-hire a real estate agent, you have almost too many options**. **<span 
-style="font-size: normal;">**Today we are going to discuss the top 5 questions 
-you should be asking any real estate agent before ****you hire them**, so you 
-can filter through the plethora of agents out there in order to find the right 
-one for you. 
+When it comes time for you to hire a real estate agent, you have almost too many options. **Today we are going to discuss the top 5 questions you should be asking any real estate agent before you hire them**, so you can filter through the plethora of agents out there in order to find the right one for you. 
 <span style="font-family: &quot;arial&quot; , &quot;helvetica&quot; , 
 sans-serif;"><span style="font-size: normal;"> 
 <span style="font-family: &quot;arial&quot; , &quot;helvetica&quot; , 
