@@ -50,7 +50,7 @@ podcast:
   author: Enrique Medellin
 
 #layout options
-review_sm_icons: false
+review_sm_icons: true
 audit_header: false
 
 #image settings
