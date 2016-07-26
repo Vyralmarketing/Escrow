@@ -9,6 +9,8 @@ modified_time: '2016-07-05T09:32:52.238-07:00'
 thumbnail: https://img.youtube.com/vi/He-jiqxAaTs/default.jpg
 blogger_id: tag:blogger.com,1999:blog-4989041625897431522.post-4152769204086417154
 blogger_orig_url: http://realestateprg.blogspot.com/2016/04/silicon-valley-real-estate-home-security.html
+image: /img/screenshots/4.1%20youtube.jpg
+pullquote: 
 ---
 
 <div class="embed-container"><!--insert embed code here-->    <iframe 
