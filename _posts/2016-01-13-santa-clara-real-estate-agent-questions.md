@@ -11,7 +11,7 @@ pullquote: Here at PRG Real Estate, we are all full-time agents.
 blogger_id: tag:blogger.com,1999:blog-4989041625897431522.post-4929269892031267340
 blogger_orig_url: http://realestateprg.blogspot.com/2016/01/santa-clara-real-estate-agent-questions.html
 ---
-
+<iframe width="652" height="367" src="https://www.youtube.com/embed/m810_x5Tqug" frameborder="0" allowfullscreen></iframe>
 When it comes time for you to hire a real estate agent, you have almost too many options. **Today we are going to discuss the top 5 questions you should be asking any real estate agent before you hire them**, so you can filter through the plethora of agents out there in order to find the right one for you. 
 
 **1. Are you a full-time agent?** There are a lot of part-time agents out there; unfortunately, they don't have the necessary time or experience to provide good service.** Here at PRG Real Estate, we are all full-time agents, **and we are always working our hardest to give you the best service possible. 
