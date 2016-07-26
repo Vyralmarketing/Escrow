@@ -35,13 +35,4 @@ move more than once.
 
 If you have questions about how you can make your move as smooth as possible, 
 or if you have any questions about our local market, please don’t hesitate to 
-reach out to us. We would love to give you a hand!  <b> 
-</b><div style="background-color: white; font-family: 
-Arial,Tahoma,Helvetica,FreeSans,sans-serif; line-height: 21.56px; text-align: 
-center;"><div style="background-color: white; font-family: 
-Arial,Tahoma,Helvetica,FreeSans,sans-serif; line-height: 21.56px; text-align: 
-center;"><div style="background-color: white; font-family: 
-Arial,Tahoma,Helvetica,FreeSans,sans-serif; font-size: 15.4px; line-height: 
-21.56px; text-align: center;"><div style="background-color: white; 
-font-family: Arial,Tahoma,Helvetica,FreeSans,sans-serif; font-size: 15.4px; 
-line-height: 21.56px; text-align: center;"> 
+reach out to us. We would love to give you a hand!
