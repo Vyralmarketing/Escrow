@@ -3,6 +3,10 @@
 custom_links:
   - title: Marketing Plan
     url: http://realestateprg.com/our-marketing/
+    
+custom_links:
+  - title: Our Listings
+    url: http://realestateprg.com/listings/  
 
 #site settings
 title: Enrique Medellin Real Estate Video Blog
