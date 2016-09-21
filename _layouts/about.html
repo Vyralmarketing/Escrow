@@ -34,13 +34,17 @@
     </main>
     <div class="container">
       <div class="row">
-        <div class="four columns offset-by-four">
-             {% if site.data.settings.review_sm_icons == false %}
+          {% if site.data.settings.review_sm_icons == false %}
+        <div class="six columns">
+             
                        <h3>Check Out Our Reviews on Zillow</h3>
-      {% include review-buttons.html %}
-    {% endif %}
-
+     
+    
         </div>
+        <div class="six columns">
+             {% include review-buttons.html %}
+        </div>
+        {% endif %}
       </div>
     </div>
    
