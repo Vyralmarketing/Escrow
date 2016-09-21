@@ -35,13 +35,15 @@
     <div class="container">
       <div class="row">
         <div class="four columns offset-by-four">
-          <h2>Check Out Our Reviews on Zillow</h2>
+             {% if site.data.settings.review_sm_icons == false %}
+                       <h2>Check Out Our Reviews on Zillow</h2>
+      {% include review-buttons.html %}
+    {% endif %}
+
         </div>
       </div>
     </div>
-    {% if site.data.settings.review_sm_icons == false %}
-      {% include review-buttons.html %}
-    {% endif %}
+   
     <div class="container socials">
         <h2>Lets Connect</h2>
       {% include socials.html %}
