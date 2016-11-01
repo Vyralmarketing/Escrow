@@ -8,18 +8,18 @@ jQuery(document).ready(function(){
 	});
 
 // Navbar scroll transition
-$(function(){
-  $(window).scroll(function(){
-    var winTop = $(window).scrollTop();
-    if(winTop <= 400){
-      $("#top-nav, #page-nav").removeClass("nav-inverse");
-      //$("#topnav-logo").addClass("hidden");
-    }else{
-      $("#top-nav, #page-nav").addClass("nav-inverse");
-      //$("#topnav-logo").removeClass("hidden");
-    }//if-else
-  });//win func.
-});//ready func.
+// $(function(){
+//   $(window).scroll(function(){
+//     var winTop = $(window).scrollTop();
+//     if(winTop <= 400){
+//       $("#top-nav, #page-nav").removeClass("nav-inverse");
+//       //$("#topnav-logo").addClass("hidden");
+//     }else{
+//       $("#top-nav, #page-nav").addClass("nav-inverse");
+//       //$("#topnav-logo").removeClass("hidden");
+//     }//if-else
+//   });//win func.
+// });//ready func.
 
 });
 
